@@ -1,6 +1,7 @@
 series	name	days	from	to	answers	gxd	status	source
 sunday-1917	Sunday Cross-Word Puzzle	Sun	1917-02-25		next Sunday (to confirm)	bg (one puzzle, 1917-02-25)	research: did it run continuously to 1923?	Newspapers.com, Alex DeJarnatt 2026-10-05
-saturday-1923	Saturday puzzle	Sat	1923-05-26	by 1936 (merged into daily)	next Saturday (to confirm)	none	research: when did it merge into the daily?	Newspapers.com, Alex DeJarnatt 2026-10-05
+saturday-1923	Saturday puzzle ("Crossword Puzzles for the Grown-Ups" in 1924)	Sat	1923-05-26	between 1924-11-03 and 1925-01 (joined the daily)	next Saturday	none	research: find the first Monday printing Saturday's solution	Newspapers.com, Alex DeJarnatt 2026-10-05/06
+saturday-kids-1924	Crossword Puzzle for Boys and Girls	Sat	by 1924	?	next Saturday?	none	research: when did it start and stop?	Newspapers.com, Alex DeJarnatt 2026-10-06
 wednesday-1924	Wednesday puzzle	Wed	1924-02-06	1924-10-01	next Wednesday	none	not started	Newspapers.com, Alex DeJarnatt 2026-10-05
 daily-1924	The Globe Cross-Word Puzzle (daily)	Mon–Fri, Mon–Sat by 1936	1924-10-06	after 1970	next day	none	research: when did it end; was it ever syndicated?	Newspapers.com, Alex DeJarnatt 2026-10-05
 sunday	Sunday puzzle, later the Globe Magazine puzzle	Sun	1917 or 1923	ongoing	following week	bg, nearly all Sundays 1980–2015	tracked in status.tsv from 1980	gxd; Wayback; Puzzmo; Newspapers.com
