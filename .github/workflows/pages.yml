@@ -3,6 +3,8 @@ name: Status page
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "41 9 * * *"   # daily, to pick up new sightings in the catalog
   workflow_dispatch:
 
 permissions:
@@ -22,6 +24,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install pyyaml
       - run: python tools/render.py
       - uses: actions/upload-pages-artifact@v3
         with:

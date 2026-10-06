@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""Render site/index.html from status.tsv, series.tsv and notes/double-issues.tsv.
+"""Render site/index.html from status.tsv, series.tsv and notes/double-issues.tsv,
+plus the timeline of sightings in the catalog's Boston Globe entry.
 
-Runs in CI on every push (see .github/workflows/pages.yml); needs only the
-standard library. status.tsv itself is rebuilt locally by build_status.py.
+Runs in CI on every push and daily (see .github/workflows/pages.yml); needs
+PyYAML for the catalog entry. status.tsv itself is rebuilt locally by
+build_status.py.
 """
 import csv
 import collections
 import datetime as dt
 import html
+import re
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,6 +25,21 @@ STATES = [  # (state, label, meaning)
     ("need-image", "Scan wanted", "known to exist in print; we need the page"),
     ("missing", "Not found yet", "nothing found yet"),
 ]
+
+
+CATALOG_RAW = "https://raw.githubusercontent.com/EveryPuzzleProject/catalog/main/publications/boston-globe.md"
+ERAS = [("1917", "1929", "1917–1929: the early series"), ("1930", "1979", "1930–1979"),
+        ("1980", "2009", "1980–2009"), ("2010", "9999", "2010 to now")]
+
+
+def catalog_entry() -> dict:
+    """The catalog's Boston Globe front matter: from a sibling catalog checkout if
+    there is one (local runs), otherwise from GitHub (CI)."""
+    import yaml
+    local = ROOT.parent / "catalog" / "publications" / "boston-globe.md"
+    text = local.read_text(encoding="utf-8") if local.exists() else urllib.request.urlopen(CATALOG_RAW, timeout=60).read().decode("utf-8")
+    m = re.match(r"---\n(.*?)\n---\n", text.replace("\r\n", "\n"), re.S)
+    return yaml.safe_load(m.group(1)) if m else {}
 
 
 def read(name: str) -> list[dict]:
@@ -80,6 +99,22 @@ def main() -> None:
             f"<tr><td>{e(s['name'])}</td><td>{e(s['days'])}</td><td>{e(s['from'])}</td><td>{e(s['to'])}</td><td>{e(s['status'])}</td></tr>"
             for s in series)
 
+    entry = catalog_entry()
+
+    def timeline() -> str:
+        cw = entry.get("crosswords") or {}
+        out = [f'<p class="summary">{e(str(cw.get("frequency", "")))}</p>'] if cw.get("frequency") else []
+        sightings = sorted(entry.get("sightings") or [], key=lambda s: str(s.get("date", "")))
+        for i, (lo, hi, name) in enumerate(ERAS):
+            these = [s for s in sightings if lo <= str(s.get("date", ""))[:4] <= hi]
+            if not these:
+                continue
+            body = "\n".join(f"<tr><td>{e(str(s.get('date', '')))}</td><td>{e(str(s.get('puzzle', '')))}</td>"
+                             f"<td class=muted>{e(str(s.get('seen', '')))}</td></tr>" for s in these)
+            out.append(f"<details{' open' if i == 0 else ''}><summary><b>{name}</b> · {len(these)} sightings</summary>"
+                       f'<div class="scroll"><table><thead><tr><th>Date</th><th>What</th><th>Seen</th></tr></thead><tbody>{body}</tbody></table></div></details>')
+        return "\n".join(out)
+
     def table_rows() -> str:
         label = {s: lab for s, lab, _ in STATES}
         return "\n".join(
@@ -109,7 +144,7 @@ a {{ color:var(--accent) }} .muted {{ color:var(--muted) }} .lede {{ font-size:1
 table {{ width:100%; border-collapse:collapse; font:14px/1.4 system-ui, sans-serif }}
 th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top }}
 th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child, td.id {{ white-space:nowrap }}
-details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} summary {{ cursor:pointer }} .dates {{ margin:4px 0 8px 18px; color:var(--muted) }}
+details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} .summary {{ font-size:15px }} summary {{ cursor:pointer }} .dates {{ margin:4px 0 8px 18px; color:var(--muted) }}
 .bar {{ display:flex; align-items:center; gap:8px; font:12px system-ui, sans-serif; margin:2px 0 }}
 .yr {{ width:3em; color:var(--muted) }} .n {{ width:4.5em; text-align:right; color:var(--muted) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-missing) }}
@@ -169,6 +204,11 @@ We're still mapping when each started and stopped. See the <a href="{CATALOG}">c
 <div class="scroll"><table><thead><tr><th>Series</th><th>Days</th><th>From</th><th>To</th><th>Status</th></tr></thead><tbody>
 {series_rows()}
 </tbody></table></div>
+
+<h2>Timeline: what's been seen</h2>
+<p>The evidence behind the series above: every dated sighting recorded in the <a href="{CATALOG}">catalog entry</a>,
+what was in the paper that day, and who saw it where. New sightings go in the catalog and show up here.</p>
+{timeline()}
 
 <h2>Progress, Sundays since 1980</h2>
 <div class="legend">{legend()}</div>
