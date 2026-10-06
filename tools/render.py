@@ -49,8 +49,10 @@ def main() -> None:
     def wanted_rows() -> str:
         out = []
         for r in wanted:
-            what = {"harder": "Harder puzzle", "easier": "Easier puzzle"}.get(r["slot"], "Sunday puzzle")
-            out.append(f"<tr><td>{e(r['date'])}</td><td>{e(what)}</td><td>{e(r['title'])}</td><td>{e(r['author'])}</td><td>{e(r['note'])}</td></tr>")
+            notes = [n.strip() for n in r["note"].split(";") if n.strip() and n.strip() != "double issue"]
+            if r["slot"] in ("harder", "easier"):
+                notes.insert(0, f"Double issue: {r['slot'].capitalize()} puzzle")
+            out.append(f"<tr><td>{e(r['date'])}</td><td>{e(r['title'])}</td><td>{e(r['author'])}</td><td>{e('; '.join(notes))}</td></tr>")
         return "\n".join(out)
 
     def missing_years() -> str:
@@ -143,7 +145,7 @@ is just as welcome as a scan, often more. Open a request saying which puzzles yo
 
 <h2>Scans wanted: puzzles we know about</h2>
 <p>These ran in print, and we know their titles, but we have no copy we can use.</p>
-<div class="scroll"><table><thead><tr><th>Date</th><th>Which</th><th>Title</th><th>Constructor</th><th>Notes</th></tr></thead><tbody>
+<div class="scroll"><table><thead><tr><th>Date</th><th>Title</th><th>Constructor</th><th>Notes</th></tr></thead><tbody>
 {wanted_rows()}
 </tbody></table></div>
 
