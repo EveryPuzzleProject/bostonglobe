@@ -82,13 +82,13 @@ def main() -> None:
         label = {s: lab for s, lab, _ in STATES}
         return "\n".join(
             f'<tr data-state="{e(r["state"])}"><td>{e(r["date"])}</td><td>{e(r["slot"])}</td><td><span class="pill {e(r["state"])}">{e(label.get(r["state"], r["state"]))}</span></td>'
-            f"<td>{e(r['title'])}</td><td>{e(r['author'])}</td><td>{e(r['gxd'])} {e(r['mr'])}</td><td>{e(r['note'])}</td></tr>"
+            f"<td>{e(r['title'])}</td><td>{e(r['author'])}</td><td class=id>{e(r['gxd'])} {e(r['mr'])}</td><td>{e(r['note'])}</td></tr>"
             for r in sorted(rows, key=lambda r: r["date"], reverse=True))
 
     have = count["in-gxd"] + count["in-mr"] + count["ready"]
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Boston Globe Crosswords</title>
+<title>Crossword Puzzles in the Boston Globe</title>
 <style>
 :root {{ --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e3e0d8; --card:#ffffff; --accent:#8a1c1c;
   --s-in-gxd:#2f6f4f; --s-in-mr:#4f8fbf; --s-ready:#c9a227; --s-need-image:#c4572c; --s-missing:#d9d5cc; }}
@@ -106,7 +106,7 @@ a {{ color:var(--accent) }} .muted {{ color:var(--muted) }} .lede {{ font-size:1
 .cta ol {{ margin:8px 0 0; padding-left:22px }}
 table {{ width:100%; border-collapse:collapse; font:14px/1.4 system-ui, sans-serif }}
 th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top }}
-th {{ font-weight:600 }} .scroll {{ overflow-x:auto }}
+th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child, td.id {{ white-space:nowrap }}
 details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} summary {{ cursor:pointer }} .dates {{ margin:4px 0 8px 18px; color:var(--muted) }}
 .bar {{ display:flex; align-items:center; gap:8px; font:12px system-ui, sans-serif; margin:2px 0 }}
 .yr {{ width:3em; color:var(--muted) }} .n {{ width:4.5em; text-align:right; color:var(--muted) }}
@@ -123,9 +123,13 @@ details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} summary {{ curso
 input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
 footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--muted) }}
 </style></head><body><main>
-<h1>Boston Globe Crosswords</h1>
-<p class="lede">The Globe has printed crosswords since February 25, 1917. We're collecting every one into an archive
-for research and preservation. Since 1980 we have <b>{have:,}</b> of {len(sundays):,} known Sunday puzzles. Here's what's missing, and how you can help.</p>
+<h1>Crossword Puzzles in the Boston Globe</h1>
+<p class="lede">The Boston Globe ran its first crossword on February 25, 1917, barely three years after the first crossword ever
+and seven years before the craze swept the country. Since then it has run Sunday puzzles, Saturday puzzles, a Wednesday puzzle,
+a daily that lasted at least 46 years, and Sunday magazines with a Harder and an Easier puzzle facing each other,
+by everyone from Henry Hook and Emily Cox &amp; Henry Rathvon to Brendan Emmett Quigley and Joon Pahk.</p>
+<p>We're indexing every one: when it ran, who made it, and where a copy survives. Of the {len(sundays):,} Sunday puzzles since 1980,
+we've found <b>{have:,}</b>. Here's what's still missing, and how you can help.</p>
 
 <div class="cta"><b>How you can help</b>
 <ol>
@@ -133,7 +137,9 @@ for research and preservation. Since 1980 we have <b>{have:,}</b> of {len(sunday
 <li><b>Clip it.</b> Clip the puzzle page and the page with its solution (the puzzle page says where, e.g. "Solutions on page 76"). Note the title, constructor and the 1-Across clue.</li>
 <li><b>Send it.</b> Open a <a href="{BLITZ}">blitz request</a> with the date, the clipping links and what you noted. Please share clipping links rather than uploading page images; the request page is public.</li>
 </ol>
-<p class="muted" style="margin:8px 0 0">Constructors: if you have your own files for Globe puzzles, we'd love to hear from you too.</p></div>
+<p style="margin:10px 0 0"><b>Already have it as a file?</b> A Globe puzzle typed up or saved as a .puz (Across Lite), .ipuz, .jpz or .xd file
+is just as welcome as a scan, often more. Open a request saying which puzzles you have, and we'll arrange a private way to send them
+(again, please don't attach puzzle files to the public request). Constructors: if you have your own files for Globe puzzles, we'd love to hear from you.</p></div>
 
 <h2>Scans wanted: puzzles we know about</h2>
 <p>These ran in print, and we know their titles, but we have no copy we can use.</p>

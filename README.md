@@ -1,8 +1,9 @@
-# Boston Globe Crosswords
+# Crossword Puzzles in the Boston Globe
 
-The Boston Globe has printed crosswords since February 25, 1917. This is the
-Every Puzzle Project's home for collecting all of them: which series ran when,
-which puzzles we have, and which we still need.
+The Boston Globe ran its first crossword on February 25, 1917, barely three
+years after the first crossword ever. This is the Every Puzzle Project's home
+for indexing all of them: which series ran when, which puzzles we've found,
+and which we still need.
 
 **Status page: https://everypuzzleproject.github.io/bostonglobe/**
 
@@ -19,6 +20,12 @@ and *Easier*, 2015–2020).
 3. Open a [blitz request](https://github.com/EveryPuzzleProject/blitz/issues/new?template=request-blitz.yml)
    with the date and the clipping links. Please don't upload page images:
    requests are public.
+
+Already have puzzles as files? A .puz (Across Lite), .ipuz, .jpz or .xd file
+is just as welcome as a scan. Open a request saying which puzzles you have and
+we'll arrange a private way to send them (please don't attach puzzle files to
+the public request). Constructors with their own files: we'd love to hear
+from you.
 
 What's known about each series, with sources, is in the
 [catalog entry](https://github.com/EveryPuzzleProject/catalog/blob/main/publications/boston-globe.md).
