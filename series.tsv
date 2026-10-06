@@ -1,8 +1,8 @@
 series	name	days	from	to	answers	gxd	status	source
 sunday-1917	Sunday Cross-Word Puzzle	Sun	1917-02-25		next Sunday (to confirm)	bg (one puzzle, 1917-02-25)	research: did it run continuously to 1923?	Newspapers.com, Alex DeJarnatt 2026-10-05
 saturday-1923	The Globe's Saturday Cross Word Puzzle ("Crossword Puzzles for the Grown-Ups" in 1924)	Sat	1923-05-26	joined the daily's schedule late Nov 1924 (answered next Monday, and for a while again next Saturday)	next Saturday; from 1924-11-24 next Monday too	none	research: when do the Saturday reprint and the "Saturday Cross Word Puzzle" heading end?	Newspapers.com, Alex DeJarnatt 2026-10-05/06
-saturday-kids-1924	Crossword Puzzle for Boys and Girls	Sat	by 1924; again 1924-12-13	1925-02-07	next Saturday?	none	research: first appearance in 1924; replaced by Judge's Cross Word Funnies	Newspapers.com, Alex DeJarnatt 2026-10-06
-judge-funnies-1925	Cross Word Funnies, selected by Judge (syndicated from Judge magazine?)	Sat	1925-02-14	?	?	none (compare Judge in gxd/blitz)	research: reprints of Judge's own puzzles? how long?	Newspapers.com, Alex DeJarnatt 2026-10-06
+saturday-kids-1924	Crossword Puzzle for Boys and Girls	Sat	by 1924; again 1924-12-13	after 1925-03-07 (paused 1925-02-14 to 02-28)	next Saturday?	none	research: first appearance in 1924, and when it ended	Newspapers.com, Alex DeJarnatt 2026-10-06
+judge-funnies-1925	Cross Word Funnies, selected by Judge (syndicated from Judge magazine?)	Sat	1925-02-14	1925-02-28	?	none (compare Judge in gxd/blitz)	research: reprints of Judge's own puzzles?	Newspapers.com, Alex DeJarnatt 2026-10-06
 wednesday-1924	Wednesday puzzle	Wed	1924-02-06	1924-10-01	next Wednesday	none	not started	Newspapers.com, Alex DeJarnatt 2026-10-05
 daily-1924	The Globe Cross-Word Puzzle (daily)	Mon–Fri; Mon–Sat from late Nov 1924	1924-10-06	after 1970	next day	none	research: when did it end; was it ever syndicated?	Newspapers.com, Alex DeJarnatt 2026-10-05
 sunday	Sunday puzzle, later the Globe Magazine puzzle	Sun	1917 or 1923	ongoing	following week	bg, nearly all Sundays 1980–2015	tracked in status.tsv from 1980	gxd; Wayback; Puzzmo; Newspapers.com
