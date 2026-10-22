@@ -23,6 +23,7 @@ STATES = [  # (state, label, meaning)
     ("in-mr", "Submitted", "in a merge request to the corpus, under review"),
     ("ready", "Ready", "we have a digital copy; still to submit"),
     ("need-image", "Scan wanted", "known to exist in print; we need the page"),
+    ("need-answers", "Answers wanted", "in the archive without its answers; we need the solution page"),
     ("missing", "Not found yet", "nothing found yet"),
 ]
 
@@ -59,7 +60,7 @@ def main() -> None:
     for r in sundays:
         by_year[r["date"][:4]][r["state"]] += 1
 
-    wanted = [r for r in rows if r["state"] == "need-image"]
+    wanted = [r for r in rows if r["state"] in ("need-image", "need-answers")]
     missing = collections.defaultdict(list)
     for r in sundays:
         if r["state"] == "missing":
@@ -128,11 +129,11 @@ def main() -> None:
 <title>Crossword Puzzles in the Boston Globe</title>
 <style>
 :root {{ --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e3e0d8; --card:#ffffff; --accent:#8a1c1c;
-  --s-in-gxd:#2f6f4f; --s-in-mr:#4f8fbf; --s-ready:#c9a227; --s-need-image:#c4572c; --s-missing:#d9d5cc; }}
+  --s-in-gxd:#2f6f4f; --s-in-mr:#4f8fbf; --s-ready:#c9a227; --s-need-image:#c4572c; --s-need-answers:#9a5fb0; --s-missing:#d9d5cc; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#e07a6a;
-  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-missing:#3b3a36; }} }}
+  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; }} }}
 :root[data-theme="dark"] {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#e07a6a;
-  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-missing:#3b3a36; }}
+  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; }}
 * {{ box-sizing:border-box }}
 body {{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
 main {{ max-width:960px; margin:0 auto; padding:32px 16px 64px }}
@@ -150,12 +151,12 @@ details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} .summary {{ font
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-missing) }}
 .seg.in-gxd, .sw.in-gxd {{ background:var(--s-in-gxd) }} .seg.in-mr, .sw.in-mr {{ background:var(--s-in-mr) }}
 .seg.ready, .sw.ready {{ background:var(--s-ready) }} .seg.need-image, .sw.need-image {{ background:var(--s-need-image) }}
-.seg.missing, .sw.missing {{ background:var(--s-missing) }}
+.seg.missing, .sw.missing {{ background:var(--s-missing) }} .seg.need-answers, .sw.need-answers {{ background:var(--s-need-answers) }}
 .legend {{ display:flex; flex-wrap:wrap; gap:14px; font:13px system-ui, sans-serif; margin:8px 0 }}
 .key {{ display:inline-flex; align-items:center; gap:6px }} .sw {{ width:12px; height:12px; border-radius:2px; display:inline-block }}
 .pill {{ font-size:12px; padding:1px 6px; border-radius:9px; color:#fff; white-space:nowrap }}
 .pill.in-gxd {{ background:var(--s-in-gxd) }} .pill.in-mr {{ background:var(--s-in-mr) }} .pill.ready {{ background:var(--s-ready); color:#1d1d1b }}
-.pill.need-image {{ background:var(--s-need-image) }} .pill.missing {{ background:var(--s-missing); color:var(--fg) }}
+.pill.need-image {{ background:var(--s-need-image) }} .pill.need-answers {{ background:var(--s-need-answers) }} .pill.missing {{ background:var(--s-missing); color:var(--fg) }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
 input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
 footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--muted) }}
@@ -178,8 +179,8 @@ we've found <b>{have:,}</b>. Here's what's still missing, and how you can help.<
 is just as welcome as a scan, often more. Open a request saying which puzzles you have, and we'll arrange a private way to send them
 (again, please don't attach puzzle files to the public request). Constructors: if you have your own files for Globe puzzles, we'd love to hear from you.</p></div>
 
-<h2>Scans wanted: puzzles we know about</h2>
-<p>These ran in print, and we know their titles, but we have no copy we can use.</p>
+<h2 id="wanted">Scans wanted: puzzles we know about</h2>
+<p>These ran in print, and we know their titles, but we have no copy we can use, or (Answers wanted) we have the puzzle but not its solution.</p>
 <div class="scroll"><table><thead><tr><th>Date</th><th>Title</th><th>Constructor</th><th>Notes</th></tr></thead><tbody>
 {wanted_rows()}
 </tbody></table></div>

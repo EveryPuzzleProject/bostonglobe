@@ -24,7 +24,8 @@ ROOT = Path(__file__).resolve().parent.parent
 FIRST_SUNDAY = dt.date(1980, 1, 6)
 COLUMNS = ["id", "date", "series", "slot", "state", "title", "author", "gxd", "mr", "source", "note"]
 # git refs for gxd master and each open merge request touching bostonglobe/, newest last.
-REFS = [("origin/master", ""), ("origin/fix-bostonglobe-dates", "155"), ("origin/import-bostonglobe-wayback", "150")]
+# !150 and !155 have merged; add a (ref, mr number) pair here while a merge request is open.
+REFS = [("origin/master", "")]
 
 
 def git(gxd: Path, *args: str, data: bytes | None = None) -> bytes:
@@ -179,7 +180,7 @@ def main() -> None:
     for (day, slot), m in manual.items():
         r = row(day, rows.get((day, slot), {}).get("series") or "sunday", slot)
         r.update({k: m.get(k, "") for k in ("state", "title", "author", "note")})
-        if r["state"] not in ("in-gxd", "in-mr"):
+        if r["state"] not in ("in-gxd", "in-mr", "need-answers"):
             r.update(gxd="", mr="", source="print" if r["state"] == "need-image" else "")
 
     for r in rows.values():
