@@ -1,0 +1,31 @@
+{
+ "id": "bg-2020-03-29-1",
+ "aliases": [
+  "bg2020-03-29-L001"
+ ],
+ "xdid": "bg2020-03-29-L001",
+ "issue": "2020-03-29",
+ "date": "2020-03-29",
+ "grid": {
+  "unit": "scan:bg-2020-03-29-mag/0001",
+  "extract": "sha256:f7fc10855c04b85a22560afa715de3dc8f4c4f822cc9e61fa3633e959252c7b3",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:d98efd60cb5e7938436af3d3156d90a1988d76beb0207a7c03e44651ce110a02",
+ "key": {
+  "unit": "scan:bg-2020-03-29-mag/0000",
+  "extract": "sha256:0dadbe7e3e7aa4d443a91c614dacc17454388c8ad3a5b2017e305e43b4dcb57f",
+  "solution_id": "bg-2020-03-29-mag/0#1",
+  "how": "exact"
+ },
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:4433126ab90f314854415ba1341e0471c9a580f879fc16c46afc2f6e1cfda5b4"
+}

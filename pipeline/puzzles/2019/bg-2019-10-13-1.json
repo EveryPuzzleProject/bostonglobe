@@ -1,0 +1,34 @@
+{
+ "id": "bg-2019-10-13-1",
+ "aliases": [
+  "bg2019-10-13-L001"
+ ],
+ "xdid": "bg2019-10-13-L001",
+ "issue": "2019-10-13",
+ "date": "2019-10-13",
+ "grid": {
+  "unit": "scan:bg-2019-10-13-mag/0001",
+  "extract": "sha256:63c971ca92fd4450ada915de11e6596752810abb7b46af25e05b9a7e7d4a4779",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:0aea00fab678300701cc6b9af192a7ddd3e73211d8a5c0541f1d481fcc9dabba",
+ "key": {
+  "unit": "scan:bg-2019-10-13-mag/0000",
+  "extract": "sha256:4806e04734e2a16b12149c403ebf414ebd8212c3459f941cf6da0e0eed3acba0",
+  "solution_id": "bg-2019-10-13-mag/0#5",
+  "how": "recovered"
+ },
+ "checks": {
+  "solution": [
+   "3 unreadable solution letters",
+   "low-confidence letters at r1c13 r1c15 r2c4 r2c10 r2c16 r3c9 r3c15 r3c21 r4c7 r4c12 r6c2 r6c6 r6c16 r7c9 r8c2 r8c9 r8c10 r8c14 r9c2 r10c3 r10c6 r10c7 r10c8 r10c11 r10c12 r11c12 r12c3 r12c10 r12c12 r13c7 r14c9 r14c11 r14c16 r15c5 r17c3 r17c6 r17c9 r19c7 r19c13 r19c15 r19c16 r19c19 r20c6 r20c14 r21c8 r21c11 r21c20"
+  ],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:1d4a90059a5580b530442b27fe761a38afc73655cdb5e9a5c93326ef39ec15da"
+}

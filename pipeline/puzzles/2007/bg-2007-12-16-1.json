@@ -1,0 +1,25 @@
+{
+ "id": "bg-2007-12-16-1",
+ "aliases": [
+  "bg2007-12-16-L001"
+ ],
+ "xdid": "bg2007-12-16-L001",
+ "issue": "2007-12-16",
+ "date": "2007-12-16",
+ "grid": {
+  "unit": "scan:bg-2007-12-16-mag/0001",
+  "extract": "sha256:0b1eea5532ebd30e0dd66fffaf5051e9794cfe83e5589eff0245479e1c715297",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:57ba8be695034571777dbb759dc6959f7183618b28ccd48a2e97153ea5881f8c",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:268e31c4b399ef3ae4ddca49ec4fa34c2f7d82df675ff83ca5a9e3d64fa9ea85"
+}

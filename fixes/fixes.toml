@@ -1,0 +1,23 @@
+# Fixes for the Boston Globe print harvest (xword-ocr harvests/bostonglobe-print).
+# See xword-ocr docs/fixing.md.
+#
+# The pages come from a folder of Newspapers.com clippings, not archive.org:
+# bostonglobe-scans print/pages.tsv (xword-ocr docs/sources.md). An issue is a
+# key like bg-2016-04-03-mag; its leaves are its rows in pages.tsv, in order.
+#
+# Puzzle fixes are keyed by xd id (shown on each review page):
+#   [puzzle."bgYYYY-MM-DD"]
+#   title = "..."
+#
+# Page hints are keyed by issue and leaf:
+#   [page."bg-2016-04-03-mag".1]
+#   include = true
+
+# ---------------------------------------------------------------------------
+# OCR hints for the Globe Magazine's layout. Each puzzle has a page (or a facing
+# page) of its own, headed in display type: "The Globe Puzzle" over its title, with
+# "Harder" / "Easier" on double-issue Sundays. Read that block as the heading
+# (xword-ocr docs/fixing.md, heading_blocks).
+# ---------------------------------------------------------------------------
+[ocr]
+heading_blocks = true

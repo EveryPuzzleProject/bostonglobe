@@ -1,0 +1,25 @@
+{
+ "id": "bg-2018-02-11-2",
+ "aliases": [
+  "bg2018-02-11-L001"
+ ],
+ "xdid": "bg2018-02-11-L001",
+ "issue": "2018-02-11",
+ "date": "2018-02-11",
+ "grid": {
+  "unit": "scan:bg-2018-02-11-mag/0001",
+  "extract": "sha256:3ee7d06ba8e24194b6ca7bcd695b13be6fa9ab5002005177baf89d29bbd17114",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:f4d3ec05f6f7cdba7125eedd2584442623335df0a06fd365ea8e990f34b45930",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:2d8b35ab15be3c2b68a0306218eaa03d933c830c4fdd911254cafd90d4d4a773"
+}
