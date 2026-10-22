@@ -1,0 +1,34 @@
+{
+ "id": "bg-2020-10-18-1",
+ "aliases": [
+  "bg2020-10-18-L001"
+ ],
+ "xdid": "bg2020-10-18-L001",
+ "issue": "2020-10-18",
+ "date": "2020-10-18",
+ "grid": {
+  "unit": "scan:bg-2020-10-18-mag/0001",
+  "extract": "sha256:4fc67ec8bd512a9e4e40c7faa5f90ca971aa9edd8972726d43e382edf06f1374",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:547eabfc80a6febde257b2046abe35d12a47f9e37719e46b03c087af0a2e34d4",
+ "key": {
+  "unit": "scan:bg-2020-10-18-mag/0000",
+  "extract": "sha256:b2281da4bd99c3a631019b1be884d346b34ec6969b011568ae86df5d71d73c07",
+  "solution_id": "bg-2020-10-18-mag/0#2",
+  "how": "recovered"
+ },
+ "checks": {
+  "solution": [
+   "30 unreadable solution letters",
+   "low-confidence letters at r1c2 r1c4 r1c7 r1c12 r1c19 r1c20 r2c1 r2c2 r2c3 r2c8 r2c10 r2c12 r3c1 r3c4 r3c7 r3c10 r3c21 r4c2 r4c4 r4c11 r4c17 r4c18 r5c5 r5c6 r5c10 r5c16 r5c18 r6c3 r6c10 r6c15 r6c19 r7c3 r7c4 r7c5 r7c7 r7c8 r7c11 r7c12 r7c13 r7c14 r7c15 r7c19 r7c20 r7c21 r8c3 r8c4 r8c8 r8c13 r8c20 r9c1 r9c2 r9c3 r9c6 r9c7 r9c8 r9c10 r9c12 r9c15 r9c17 r9c18 r9c19 r9c20 r9c21 r10c8 r10c20 r10c21 r11c5 r11c10 r11c15 r11c16 r11c17 r12c10 r12c11 r12c14 r12c18 r13c1 r13c3 r13c4 r13c8 r13c9 r13c10 r13c13 r13c14 r13c16 r13c17 r13c20 r14c2 r14c3 r14c21 r15c1 r15c2 r15c6 r15c7 r15c8 r15c10 r15c12 r15c14 r15c15 r15c17 r15c19 r15c21 r16c7 r16c10 r16c12 r16c21 r17c9 r17c12 r17c18 r18c2 r18c4 r18c9 r18c10 r18c11 r18c14 r18c15 r18c17 r18c19 r19c1 r19c7 r19c10 r19c15 r19c16 r19c21 r20c3 r20c9 r20c10 r20c12 r20c14 r20c15 r20c16 r20c18 r20c19 r20c20 r21c2 r21c7 r21c20 r21c21"
+  ],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:af4acee6b40fb983fb1e6ca9349dcd042a5dac25be1fad8ed27a42f236570224"
+}

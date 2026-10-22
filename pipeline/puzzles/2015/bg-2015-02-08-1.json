@@ -1,0 +1,33 @@
+{
+ "id": "bg-2015-02-08-1",
+ "aliases": [
+  "bg2015-02-08-L001"
+ ],
+ "xdid": "bg2015-02-08-L001",
+ "issue": "2015-02-08",
+ "date": "2015-02-08",
+ "grid": {
+  "unit": "scan:bg-2015-02-08-mag/0001",
+  "extract": "sha256:f0ebb0320a1416131b26bf7a1eec72c1d910cf7c85d0938f687f52ed6ce16668",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:77258bac4152cb782aa72e1e8a3a66361997e213f55055b6f5ed7990d3701fe7",
+ "key": {
+  "unit": "scan:bg-2015-02-08-mag/0000",
+  "extract": "sha256:196711dbf2a8756493b6fb70ed872e2ffd13bbcb0e4725d9d9174a0ce58a4691",
+  "solution_id": "bg-2015-02-08-mag/0#0",
+  "how": "exact"
+ },
+ "checks": {
+  "solution": [
+   "low-confidence letters at r5c8"
+  ],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:4153036ad1a22d956b4de2466c8904eca2fee8d68c74d53bc0ab419f3625f781"
+}

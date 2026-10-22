@@ -1,0 +1,87 @@
+{
+ "scan:bg-2015-11-08-mag/0000": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:8ececb6fab75ca9d0efe46b7a00602e79fbeadf8e7661bcbbe00a6be8c520dba",
+    "layout": "sha256:322ea65ae9e54522c78176e5c09c7d3604dae9a53a24d02b3fe05d704bf858ea",
+    "ocr": "sha256:c111aca5bd72a2ece408e11365f958d6e6a732820c13c863b1a5bb89fef8cd27"
+   },
+   "made": "2026-10-22T19:41:00+00:00",
+   "output": "sha256:d3d0a42dec410d5f7b3e3483c9e17d60ecb31d29fb4b1d4a71914bfa1b5ed53d",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/5"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-10-22T19:40:52+00:00",
+   "output": "sha256:8ececb6fab75ca9d0efe46b7a00602e79fbeadf8e7661bcbbe00a6be8c520dba",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:8ececb6fab75ca9d0efe46b7a00602e79fbeadf8e7661bcbbe00a6be8c520dba"
+   },
+   "made": "2026-10-22T19:40:52+00:00",
+   "output": "sha256:322ea65ae9e54522c78176e5c09c7d3604dae9a53a24d02b3fe05d704bf858ea",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/1"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:8ececb6fab75ca9d0efe46b7a00602e79fbeadf8e7661bcbbe00a6be8c520dba"
+   },
+   "made": "2026-10-22T19:40:56+00:00",
+   "output": "sha256:c111aca5bd72a2ece408e11365f958d6e6a732820c13c863b1a5bb89fef8cd27",
+   "settings": {
+    "engine": "rapidocr",
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/1"
+  }
+ },
+ "scan:bg-2015-11-08-mag/0000#key-6e70d62315b4": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:8ececb6fab75ca9d0efe46b7a00602e79fbeadf8e7661bcbbe00a6be8c520dba"
+   },
+   "made": "2026-10-22T19:42:56+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:bg-2015-11-08-mag/0000#key-ed9ae50d9dd4": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:8ececb6fab75ca9d0efe46b7a00602e79fbeadf8e7661bcbbe00a6be8c520dba"
+   },
+   "made": "2026-10-22T19:42:57+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ }
+}

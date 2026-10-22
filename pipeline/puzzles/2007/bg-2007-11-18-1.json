@@ -1,0 +1,33 @@
+{
+ "id": "bg-2007-11-18-1",
+ "aliases": [
+  "bg2007-11-18-L001"
+ ],
+ "xdid": "bg2007-11-18-L001",
+ "issue": "2007-11-18",
+ "date": "2007-11-18",
+ "grid": {
+  "unit": "scan:bg-2007-11-18-mag/0001",
+  "extract": "sha256:94a343823ad06717e8c32da4832591da4ce2c34180178a4fcda151d30fbee407",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:249a6949f4f7b4d8abd8f63a1e9effb58b1543c2967d484fb3c7bb6974cf774a",
+ "key": {
+  "unit": "scan:bg-2007-11-18-mag/0000",
+  "extract": "sha256:52a61b57a55b31dadb34073b2e79d2aaae18a92c9072ffe50175d6bbd0a52de5",
+  "solution_id": "bg-2007-11-18-mag/0#1",
+  "how": "recovered"
+ },
+ "checks": {
+  "solution": [
+   "low-confidence letters at r3c16 r5c13 r5c20 r8c15 r16c17"
+  ],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:3673a4f1f5e938c41619c362be3438642957b7fde29995e8aa546dadbd26ff80"
+}

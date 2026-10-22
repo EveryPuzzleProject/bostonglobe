@@ -1,0 +1,25 @@
+{
+ "id": "bg-2017-06-18-1",
+ "aliases": [
+  "bg2017-06-18-L000"
+ ],
+ "xdid": "bg2017-06-18-L000",
+ "issue": "2017-06-18",
+ "date": "2017-06-18",
+ "grid": {
+  "unit": "scan:bg-2017-06-18-mag/0000",
+  "extract": "sha256:dfbed1aaa3dcd44cbf1d2df4f65fdd4f69c506517e61bc105d99c8ba2ba7e2a8",
+  "size": "21x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:32d5220bebdcc973eaf0125b5e25948c9aa36977168bb80627193a17725d8555",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:ca4343d78534a9f56ef6ad83e319fd68cf50e50ef01cb6b819d9d5577b489fb6"
+}

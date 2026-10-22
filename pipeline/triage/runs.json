@@ -1,0 +1,10 @@
+{
+ "_about": "The Boston Globe print captures' text step runs (xword-ocr harvests/bostonglobe-print): which one is current (the batch page opens on it, the import reads it) and what each is.",
+ "current": "run1",
+ "runs": {
+  "run1": {
+   "status": "current",
+   "what": "the first text step on v2: 33 puzzles from the Newspapers.com captures (bostonglobe-scans print/pages.tsv), harvested with harvest --folder"
+  }
+ }
+}
