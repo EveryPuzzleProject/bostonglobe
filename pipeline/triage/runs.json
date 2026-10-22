@@ -1,10 +1,14 @@
 {
  "_about": "The Boston Globe print captures' text step runs (xword-ocr harvests/bostonglobe-print): which one is current (the batch page opens on it, the import reads it) and what each is.",
- "current": "run1",
+ "current": "run2",
  "runs": {
   "run1": {
-   "status": "current",
+   "status": "old",
    "what": "the first text step on v2: 33 puzzles from the Newspapers.com captures (bostonglobe-scans print/pages.tsv), harvested with harvest --folder"
+  },
+  "run2": {
+   "status": "current",
+   "what": "run1 re-assembled with xword-ocr#44 (no band where a column just starts lower, or a list goes on at the next column's top): 15 puzzles read again by the text step, 18 answers reused from run1. Triage: 20 ready for review, 13 needs work (12 of them for a missing or unread key)."
   }
  }
 }
