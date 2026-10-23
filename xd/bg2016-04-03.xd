@@ -1,0 +1,203 @@
+Title: FOURSOMES
+Author: Emily Cox and Henry Rathvon
+Feature: The Globe Puzzle / Harder
+Date: 2016-04-03
+Solution: matched
+Solution-Source: https://www.newspapers.com/image/444543935/
+Source: https://www.newspapers.com/image/444544078/
+Assembly: hands-off: the harvest's regions, parts linked by assembly (xword-ocr), no person's edits
+Byline: By Emily Cox and Henry Rathvon
+Text-Review: AI reviewer (claude-fable-5-1): 35 change(s), listed in the review
+Proof-Packet: bostonglobe-print/proof/run2/bg2016-04-03-L002 (xd cdd860d17e0b)
+Shipped: Alex DeJarnatt (recorded by Claude) 2026-10-23 on the batch page: Shipped for the gxd merge request (Alex, 2026-10-23; recorded by Claude at his request), after the run2 proof above.
+Proof: ready by Claude (at Alex's request) 2026-10-23
+Proof-Edits: 1 applied, from Claude (at Alex's request)
+
+
+PACE#SCENT#GONE#AQABA
+ORAL#HOVER#ROAR#LUZON
+PANAMAMAMAMAMBO#LETBY
+URANIUM#OMEN#SISI#EBB
+PAD#GNAT##DOL#CAN#CIO
+STAG###IMPALALALALAND
+##DAMN#BALLADE#SLANGY
+ADAGIO#IRE##ONEALS###
+SAD#MEGAGAGAGAMS#SPAR
+FRAGILE###OKAPI##OHNO
+ANDE#STR#FRA#ELS#EONS
+CIAO##HATED###ICEDTEA
+TTYL#SOHOHOHOHOAX#OAR
+###ONETWO##OBI#LASTLY
+APOGEE#ATABOIL#AMMO##
+TOKYOYOYOYOKEL###ATOM
+LIT#NOD#OKS##SIGH#ORO
+ENO#AUEL#RCMP#SOMATIC
+ATBAT#TABOOBOOBOOBOOK
+STERE#TRAY#ALOUD#COLE
+TORTS#ENID#SOFTY#SKED
+
+
+A1. Tempo ~ PACE
+A5. Hound's trail ~ SCENT
+A10. Out of the park ~ GONE
+A14. Red Sea port ~ AQABA
+A19. Word-of-mouth ~ ORAL
+A20. Make like a copter ~ HOVER
+A21. Make like a lion ~ ROAR
+A22. Manila's island ~ LUZON
+A23. Dance of a Central American parent? ~ PANAMAMAMAMAMBO
+A26. Permit to pass ~ LETBY
+A27. Element 92 ~ URANIUM
+A28. Sign to heed ~ OMEN
+A29. Spanish ayes? ~ SISI
+A31. Outflowing tide ~ EBB
+A32. Heliport area ~ PAD
+A33. Thing to swat ~ GNAT
+A35. 100 cts. ~ DOL
+A37. Fire ~ CAN
+A38. AFL-__ ~ CIO
+A39. Exclusively male ~ STAG
+A41. Where the antelope act crazy? ~ IMPALALALALAND
+A46. Rhett's swear word ~ DAMN
+A49. Verse with an envoi ~ BALLADE
+A50. Like street talk ~ SLANGY
+A51. “Slow it down” ~ ADAGIO
+A53. Emotional state ~ IRE
+A54. Paper Moon twosome ~ ONEALS
+A56. Blue ~ SAD
+A57. Big crazy legs? ~ MEGAGAGAGAMS
+A61. Train for a bout ~ SPAR
+A65. Not for the ham-fisted ~ FRAGILE
+A67. Giraffe's cousin ~ OKAPI
+A68. "Horrors!" ~ OHNO
+A69. B __ (burglary) ~ ANDE
+A70. Cello sect. ~ STR
+A72. Monk's address ~ FRA
+A73. PGA great Ernie ~ ELS
+A75. Big time chunks ~ EONS
+A76. Word to an amico ~ CIAO
+A77. Reviled ~ HATED
+A79. Hot day's cooler ~ ICEDTEA
+A81. Texter's sign-off ~ TTYL
+A82. London scam involving snack cakes? ~ SOHOHOHOHOAX
+A86. Crew gear ~ OAR
+A87. Blow combo ~ ONETWO
+A89. Kimono sash ~ OBI
+A90. In conclusion ~ LASTLY
+A92. Orbit point ~ APOGEE
+A95. Bubbling hot ~ ATABOIL
+A98. BBs or buckshot ~ AMMO
+A99. Japanese rube with a string-toy act? ~ TOKYOYOYOYOKEL
+A101. Building block ~ ATOM
+A104. Afire ~ LIT
+A105. Dreamland ~ NOD
+A106. Signs off on ~ OKS
+A107. Evidence of ennui ~ SIGH
+A111. Pizarro's gold ~ ORO
+A112. Roxy Music's Brian ~ ENO
+A113. Creator of Ayla ~ AUEL
+A115. Sgt. Preston's org. ~ RCMP
+A118. Of the body ~ SOMATIC
+A120. Event at home ~ ATBAT
+A122. Volume listing forbidden little sins? ~ TABOOBOOBOOBOOK
+A125. 35.315 cubic feet ~ STERE
+A126. Makeshift sled ~ TRAY
+A127. For ears to hear ~ ALOUD
+A128. Nat or Natalie ~ COLE
+A129. Some legal cases ~ TORTS
+A130. City west of Tulsa ~ ENID
+A131. Sentimental type ~ SOFTY
+A132. Slate, for short ~ SKED
+
+D1. Window adverts ~ POPUPS
+D2. Where Noah stopped ~ ARARAT
+D3. When absurd art is celebrated up north? ~ CANADADADADAY
+D4. Vivacity ~ ELAN
+D5. __ of the Dead ~ SHAUN
+D6. Sign for a pause ~ COMMA
+D7. Juan Peron's wife ~ EVA
+D8. Pixar fish ~ NEMO
+D9. Ride on rails ~ TRAM
+D10. Yogurt parfait layer ~ GRANOLA
+D11. Tuba syllable? ~ OOM
+D12. Cops ~ NABS
+D13. Beethoven's Third ~ EROICA
+D14. On the whole ~ ALLINALL
+D15. What's what in Spain ~ QUE
+D16. From the halls of Montezuma? ~ AZTECAN
+D17. Going up and down ~ BOBBING
+D18. “__ home?” ~ ANYBODY
+D24. Russian fighter ~ MIG
+D25. Badge of honor ~ MEDAL
+D30. Hot stuff ~ SALSAS
+D34. Bone in your shin ~ TIBIA
+D36. Europe's largest lake ~ LADOGA
+D40. Comic bit ~ GAG
+D42. Helgenberger on CSI ~ MARG
+D43. Entreaty ~ PLEA
+D44. Delaware tribe ~ LENAPE
+D45. Rope-snagged ~ LASSOED
+D47. La Boheme heroine ~ MIMI
+D48. Year-end songs ~ NOELS
+D51. Take __ (don't question) ~ ASFACT
+D52. “Oh, fudge!" ~ DARNIT
+D55. Estevez in acting ~ EMILIO
+D58. Start on a streak ~ GETHOT
+D59. Astronaut Cooper, to pals ~ GORDO
+D60. Alias letters ~ AKA
+D62. Dog's-eye snapshot of Oz? ~ PHOTOTOTOTOOK
+D63. Temper ~ ANNEAL
+D64. Prayer beads ~ ROSARY
+D66. Rocky subject ~ GEOLOGY
+D71. Town near Newark ~ RAHWAY
+D72. Yiddish “yuck” ~ FEH
+D74. Opera house La __ ~ SCALA
+D78. La-di-da ~ TOOTOO
+D80. SAT, e.g. ~ EXAM
+D82. “Bye!" ~ SEEYOU
+D83. Pan menacer ~ HOOK
+D84. Theater award ~ OBIE
+D85. Roman septet ~ HILLS
+D88. New arrivals ~ NEONATES
+D91. Wee, in Dundee ~ SMA
+D92. No fewer than ~ ATLEAST
+D93. Indicate ~ POINTTO
+D94. Fest time in Bavaria ~ OKTOBER
+D96. Belushi's blues “brother” ~ AYKROYD
+D97. Chocolate syrup ~ BOSCO
+D100. Swan Lake princess ~ ODETTE
+D102. Maryland's state bird ~ ORIOLE
+D103. Made fun of ~ MOCKED
+D108. “Life __ a dream” ~ ISBUT
+D109. “Oh boy!” ~ GOODY
+D110. Med. plan ~ HMO
+D114. “That'll __ ya!” ~ LARN
+D116. Wharton degs. ~ MBAS
+D117. Sport with mallets ~ POLO
+D119. Fundamentals ~ ABCS
+D121. Jazzman Tatum ~ ART
+D123. Anna and the King actress Ling ~ BAI
+D124. Punch-in-the-gut grunt ~ OOF
+
+OCR review flags:
+A46: number-missing
+A49: number-missing
+A65: number-missing
+A76: number-missing
+A115: number-missing
+A125: number-missing
+A128: number-missing
+D4: number-missing
+D6: number-missing
+D14: number-missing
+D24: number-missing
+D25: number-missing
+D72: number-missing, low-ocr-score
+D96: number-missing
+D109: number-missing
+D116: number-missing
+
+Text step, unsure:
+title: L1 is the whole heading; title and byline given in values since no line carries them alone
+A69: blank spacing assumed; not on the sheet
+D74: the blank after 'La' is assumed from the Globe's __ style; the sheet cuts off below 'Opera house'

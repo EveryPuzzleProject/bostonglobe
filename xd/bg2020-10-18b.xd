@@ -1,0 +1,197 @@
+Title: MASH-UPS
+Author: Emily Cox and Henry Rathvon
+Date: 2020-10-18
+Solution: none
+Source: https://www.newspapers.com/image/688621267/
+Assembly: hands-off: the harvest's regions, parts linked by assembly (xword-ocr), no person's edits
+Byline: By Emily Cox and Henry Rathvon
+Feature: THE GLOBE PUZZLE
+Text-Review: AI reviewer (claude-fable-5-1): 21 change(s), listed in the review
+Proof-Packet: bostonglobe-print/proof/run2/bg2020-10-18-L001 (xd 580224cc7ebc)
+Shipped: Alex DeJarnatt (recorded by Claude) 2026-10-23 on the batch page: Shipped for the gxd merge request as the text step and the run2 fixes left it (Alex, 2026-10-23: all 33 now, before proofs; recorded by Claude at his request).
+Proof: ready by Claude (transcribed from the scan, at Alex's request) 2026-10-23
+Proof-Edits: 373 applied, from Claude (transcribed from the scan, at Alex's request)
+
+
+AMOR#EVITA#DOWEL##QBS
+LODE#SEDER#OVINE#LUAU
+ANDI#CELEBUTANTE#EASE
+SKISLOPE#IRATE#ROARED
+##TSARS#STARE#BERRA##
+AMOUNT#FIEND#ARDENNES
+DARED#METROSEXUAL#TNT
+ACID#BARK###DELT#MIRO
+PRU#LABRADOODLE#CANON
+TOMALLEY#ELLAS#HOMINY
+###LOLL#MAIDS#PERM###
+DECOYS#SERVE#ALANALDA
+RAYED#SCREENAGERS#ION
+ORBS#TEAC###FLAT#STUN
+OLE#FRANKENFOOD#QUESO
+PERDIEMS#MIAOW#SURREY
+##ZONES#TINCT#PIANO##
+SWIVEL#SAGET#MANDATES
+LANE#INTERROBANG#MITE
+OVER#NIOBE#RIGEL#ECON
+WES##EXPOS#STILE#SAND
+
+
+A1. Romanized Cupid ~ AMOR
+A5. Musical with Madonna ~ EVITA
+A10. Wooden peg to go in a round hole ~ DOWEL
+A15. Passers, briefly ~ QBS
+A18. Ore store ~ LODE
+A19. Feast in the month of Nisan ~ SEDER
+A20. Just like ewe? ~ OVINE
+A21. Island party ~ LUAU
+A22. The King __ ~ ANDI
+A23. One famous for being famous ~ CELEBUTANTE
+A25. No difficulty ~ EASE
+A26. Stowe attraction ~ SKISLOPE
+A28. Really steamed ~ IRATE
+A29. Let go like Leo ~ ROARED
+A31. Ruling Romanovs ~ TSARS
+A32. Long fixed look ~ STARE
+A33. Quotable Yankee ~ BERRA
+A34. Total figure ~ AMOUNT
+A36. One like Mr. Hyde ~ FIEND
+A37. French forest ~ ARDENNES
+A40. Had the nerve ~ DARED
+A41. Urban clothes horse ~ METROSEXUAL
+A43. Stuff that blows ~ TNT
+A44. Tart ~ ACID
+A45. Skin of a limb ~ BARK
+A46. Upper-bod muscle ~ DELT
+A47. Joan of art ~ MIRO
+A48. Hub high-rise ~ PRU
+A49. Canine combo ~ LABRADOODLE
+A53. Church dogma ~ CANON
+A54. Edible lobster organ ~ TOMALLEY
+A56. Greece, to Greeks ~ ELLAS
+A57. Gritty stuff? ~ HOMINY
+A58. Laze ~ LOLL
+A59. Domestic help ~ MAIDS
+A60. A do ~ PERM
+A61. False lures ~ DECOYS
+A64. Start a point ~ SERVE
+A65. Paper Lion actor ~ ALANALDA
+A69. Spoked, as asters ~ RAYED
+A70. Digital kids ~ SCREENAGERS
+A72. Charged bit ~ ION
+A73. Peepers or planets ~ ORBS
+A74. Audio brand ~ TEAC
+A75. Featureless ~ FLAT
+A76. Knock for a loop ~ STUN
+A77. Crowd's cry ~ OLE
+A78. GMO crops, e.g. ~ FRANKENFOOD
+A82. Taco truck's cheese ~ QUESO
+A83. Daily allowances ~ PERDIEMS
+A85. Var. of a cat call ~ MIAOW
+A86. Oklahoma! carriage ~ SURREY
+A87. Defense sectors ~ ZONES
+A88. Coloration ~ TINCT
+A89. 88-key set ~ PIANO
+A90. Rotator ~ SWIVEL
+A92. Bob of Full House ~ SAGET
+A93. Orders to obey ~ MANDATES
+A96. “Stay in your __!” ~ LANE
+A97. Name for “?!” ~ INTERROBANG
+A100. Mini-arachnid ~ MITE
+A101. No longer into ~ OVER
+A102. Mythical weeper ~ NIOBE
+A103. Star in Orion ~ RIGEL
+A104. Wharton subj. ~ ECON
+A105. Jazz's Montgomery ~ WES
+A106. Nats before 2005 ~ EXPOS
+A107. Subway entrance ~ STILE
+A108. Castle makings ~ SAND
+
+D1. Sighed word ~ ALAS
+D2. Shalhoub role ~ MONK
+D3. Gallery like Ripley's ~ ODDITORIUM
+D4. Put out anew ~ REISSUED
+D5. Accompany ~ ESCORT
+D6. Some number twos ~ VEEPS
+D7. Inactive ~ IDLE
+D8. Start of a hole ~ TEE
+D9. Judge or umpire ~ ARBITER
+D10. Foolish fogeys ~ DOTARDS
+D11. Egg-shaped ~ OVATE
+D12. Stuff in a cellar ~ WINE
+D13. Sleep apnea doc ~ ENT
+D14. Eyed as a wolf ~ LEEREDAT
+D15. Lockdown cocktail ~ QUARANTINI
+D16. Diamond corner ~ BASE
+D17. Took to court ~ SUED
+D21. Get less ignorant ~ LEARN
+D24. Heavenly, as a prefix ~ URANO
+D27. Make a touchdown ~ LAND
+D30. Hurler Hershiser ~ OREL
+D32. Pre-Juneau capital ~ SITKA
+D33. Burnt, to a French cook ~ BRULE
+D34. Go with the flow ~ ADAPT
+D35. Coding shortcut ~ MACRO
+D36. Charon's craft ~ FERRY
+D37. Leaps by skaters ~ AXELS
+D38. 2001 bankruptcy filer ~ ENRON
+D39. Rock-riddled ~ STONY
+D41. “Mad Love" singer ~ MABEL
+D42. Old Norse texts ~ EDDAS
+D45. Fancy dances ~ BALLS
+D47. Abba's “__ Mia” ~ MAMMA
+D49. Dad of Beau and Jeff ~ LLOYD
+D50. Fictional ship Mary __ ~ DEARE
+D51. Antipasto item ~ OLIVE
+D52. Of bygone days ~ OLDEN
+D53. Toes' woes ~ CORNS
+D55. Soothing succulents ~ ALOES
+D57. Fond emoji ~ HEART
+D59. Big Pharma name ~ MERCK
+D60. Argue in court ~ PLEAD
+D61. Hang limply ~ DROOP
+D62. Steve of country ~ EARLE
+D63. Modern mags ~ CYBERZINES
+D64. Medical look-sees ~ SCANS
+D65. Warmly lit ~ AGLOW
+D66. Online hot stuff ~ LITEROTICA
+D67. Drench ~ DOUSE
+D68. Bug ~ ANNOY
+D70. Baseball features ~ SEAMS
+D71. Under way ~ AFOOT
+D74. Alpine threshhold ~ TREELINE
+D76. Smith and Jones ~ SURNAMES
+D78. "OK, be that way!" ~ FINE
+D79. Asylum seekers ~ EMIGRES
+D80. Bay Area NFLer ~ NINER
+D81. 2 and 5, for 10 ~ FACTORS
+D82. Campus area ~ QUAD
+D84. White cliffs site ~ DOVER
+D86. Unhitched ~ SINGLE
+D88. 1990s workout fad ~ TAEBO
+D89. Game show group ~ PANEL
+D90. None too swift ~ SLOW
+D91. Manual signal ~ WAVE
+D92. Bus line dot ~ STOP
+D93. Star followers ~ MAGI
+D94. School since 1440 ~ ETON
+D95. E-mail command ~ SEND
+D98. Nullify ~ NIX
+D99. Chomped on ~ BIT
+
+Assembly flags:
+no key found in this issue
+
+OCR review flags:
+A65: number-missing
+A74: number-missing
+A96: low-ocr-score
+A97: number-missing
+A104: number-missing
+A106: number-missing
+D8: number-missing
+D52: low-ocr-score
+D65: number-missing
+
+Text step, unsure:
+D47: not on the sheet; the blank and quote placement are inferred ('Mamma Mia')
+key: no key letters were read at all; every answer is dots

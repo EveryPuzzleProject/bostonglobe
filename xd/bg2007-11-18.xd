@@ -1,0 +1,196 @@
+Title: LITERAL RECYCLING
+Author: Emily Cox and Henry Rathvon
+Date: 2007-11-18
+Solution: none
+Source: https://www.newspapers.com/image/444174776/
+Assembly: hands-off: the harvest's regions, parts linked by assembly (xword-ocr), no person's edits
+Byline: By Emily Cox and Henry Rathvon
+Feature: THE GLOBE PUZZLE
+Text-Review: AI reviewer (claude-fable-5-1): 10 change(s), listed in the review
+Proof-Packet: bostonglobe-print/proof/run2/bg2007-11-18-L001 (xd 31a0bf78d423)
+Shipped: Alex DeJarnatt (recorded by Claude) 2026-10-23 on the batch page: Shipped for the gxd merge request as the text step and the run2 fixes left it (Alex, 2026-10-23: all 33 now, before proofs; recorded by Claude at his request).
+Proof: ready by Claude (transcribed from the scan, at Alex's request) 2026-10-23
+Proof-Edits: 374 applied, from Claude (transcribed from the scan, at Alex's request)
+
+
+HIRAM#EWOK#AGAS#BSTAR
+ABODE#MILE#CHIA#ITALO
+LEMONRINDS#TORNDRAPES
+EXERTS#GETBUSY#RETIRE
+###NOVA##RAPT#MOMENTS
+PAPERPLATES#STEVEN###
+FRED##CHALET#HOE##DEE
+CNN#SPEAR#TYPEWRITERS
+SONATAS#OPENERS#CABOT
+###DELTA#INDRA#DECADE
+SCRAPMETAL#APPLECORES
+ALAMOS#TRIAL#YOKUM###
+GAMIN#PAINTED#TEBALDI
+GROCERYBAGS#EAUDE#AID
+YEN##ORO#SIRENS##JOEL
+###ABBEYS#GARDENWASTE
+BENELUX#NEHI##SIAM###
+URANUS#TESTLAB#CLASSA
+INNERTUBES#SLATETILES
+LICIT#FAZE#AGUE#ECOLI
+DEEDS#ORYX#TAME#RAWLS
+
+
+A1. Distiller Walker ~ HIRAM
+A6. Furry sci-fi creature ~ EWOK
+A10. Lots of fun ~ AGAS
+A14. Rigel, for one ~ BSTAR
+A19. Dwelling ~ ABODE
+A20. Non-metric race ~ MILE
+A21. Green sort of pet ~ CHIA
+A22. Novelist Calvino ~ ITALO
+A23. Stuff recycled into DORM LINENS ~ LEMONRINDS
+A25. Material for making ROPE STRAND ~ TORNDRAPES
+A27. Brings to bear ~ EXERTS
+A28. Put nose to grindstone ~ GETBUSY
+A30. Quit the rat race ~ RETIRE
+A31. Science show ~ NOVA
+A33. Spellbound ~ RAPT
+A34. Tidbits of time ~ MOMENTS
+A35. Items turned into PETS' APPAREL ~ PAPERPLATES
+A40. Bochco or Spielberg ~ STEVEN
+A42. Mr. Rogers ~ FRED
+A43. Apres-ski site ~ CHALET
+A45. Bed-making tool ~ HOE
+A46. Author Brown ~ DEE
+A49. Cable TV staple ~ CNN
+A50. Piece of asparagus ~ SPEAR
+A52. What PRETTY WIRES ~ TYPEWRITERS
+A56. Some classical pieces ~ SONATAS
+A58. Prerequisites in poker ~ OPENERS
+A60. Explorer Sebastian ~ CABOT
+A61. Style of blues ~ DELTA
+A63. Chief Vedic god ~ INDRA
+A64. Half a score ~ DECADE
+A65. Stuff formed into LAMP CRATES ~ SCRAPMETAL
+A69. Food recycled into COPPER ALES ~ APPLECORES
+A71. Cottonwoods ~ ALAMOS
+A72. Court case ~ TRIAL
+A74. Dogpatch surname ~ YOKUM
+A75. Urchin ~ GAMIN
+A76. Put brush to canvas ~ PAINTED
+A78. Soprano Renata ~ TEBALDI
+A82. Recyclables for making CYBORG GEARS ~ GROCERYBAGS
+A84. __ cologne ~ EAUDE
+A86. Lend a hand ~ AID
+A87. Hankering ~ YEN
+A88. Gold, to Coronado ~ ORO
+A89. Wails of warning ~ SIRENS
+A91. Billy of pop music ~ JOEL
+A92. Convents ~ ABBEYS
+A95. Stuff turned into NEW-AGE DARTS ~ GARDENWASTE
+A98. European alliance ~ BENELUX
+A101. Brand of soda ~ NEHI
+A103. Thailand's old name ~ SIAM
+A104. Neighbor of Neptune ~ URANUS
+A105. Research facility ~ TESTLAB
+A108. Minor-league level ~ CLASSA
+A112. What ENTIRE BUNS may be made from ~ INNERTUBES
+A114. Material recycled into SATELLITES ~ SLATETILES
+A116. Permitted ~ LICIT
+A117. Bend out of shape ~ FAZE
+A118. Flu symptom ~ AGUE
+A119. Potentially nasty bug ~ ECOLI
+A120. Actions ~ DEEDS
+A121. Large antelope ~ ORYX
+A122. Well-behaved ~ TAME
+A123. Lou of R&B ~ RAWLS
+
+D1. Physically sound ~ HALE
+D2. Mountain goat ~ IBEX
+D3. City of seven hills ~ ROME
+D4. Decked ~ ADORNED
+D5. Trusted teacher ~ MENTOR
+D6. UK record label ~ EMI
+D7. Political faction ~ WING
+D8. Antique “antique" ~ OLDE
+D9. Falcon that hovers ~ KESTREL
+D10. Make trouble ~ ACTUP
+D11. Echoes of the past ~ GHOSTS
+D12. Ethereal ~ AIRY
+D13. Honshu honorific ~ SAN
+D14. Ancient warship ~ BIREME
+D15. __ Island, NY ~ STATEN
+D16. Gimme in golf ~ TAPIN
+D17. Wide awake ~ ALERT
+D18. English civil war emblems ~ ROSES
+D24. Answer an invitation ~ RSVP
+D26. Herder of livestock ~ DROVER
+D29. Decimal, as a system ~ BASETEN
+D32. Opera by Gluck ~ ALCESTE
+D34. Catcalls? ~ MEOWS
+D35. Sgts.' subordinates ~ PFCS
+D36. Cartoonist Peter ~ ARNO
+D37. Quakers' alma mater ~ PENN
+D38. "Now I see!" ~ AHA
+D39. Tuber of the tropics ~ TARO
+D41. Help in healing ~ THERAPY
+D44. Martyr William ~ TYNDALE
+D46. Exclude ~ DEBAR
+D47. Wear away ~ ERODE
+D48. __ Park, Colorado ~ ESTES
+D50. Procedural start ~ STEPONE
+D51. Future reading material? ~ PALMS
+D53. Crook, to a cop ~ PERP
+D54. Burn application ~ ICECUBE
+D55. Toyota pickup truck ~ TACOMA
+D57. Concerning Eve's mate ~ ADAMIC
+D59. Support columns ~ PILINGS
+D62. "You go, guy!" ~ ATTABOY
+D64. Fooled the goalie ~ DEKED
+D65. Drooping down ~ SAGGY
+D66. Saint from Assisi ~ CLARE
+D67. Israeli astronaut Ilan ~ RAMON
+D68. Solo for a singer ~ ARIA
+D70. Pretty pond plants ~ LOTUSES
+D73. Upon viewing ~ ATSIGHT
+D76. Cookware material ~ PYREX
+D77. Rural road hazard ~ DEER
+D79. Home of some Hmong ~ LAOS
+D80. Losing proposition? ~ DIET
+D81. Out of service ~ IDLE
+D83. Full of vigor ~ ROBUST
+D85. Furthermore ~ AND
+D90. Verbally abuses ~ RAILSAT
+D91. Birthplace of ska ~ JAMAICA
+D92. Virgil's epic poem ~ AENEID
+D93. Pops out with ~ BLURTS
+D94. Colleague of Doc ~ SNEEZY
+D96. Pleasant ~ NICE
+D97. Mondale or Mitty ~ WALTER
+D98. Construct ~ BUILD
+D99. Muppet pal of Bert ~ ERNIE
+D100. Jazz trumpeter Ray ~ NANCE
+D102. Cape Ann's county ~ ESSEX
+D105. Way up the slope ~ TBAR
+D106. Bit of green slime ~ ALGA
+D107. Inventor of Oz ~ BAUM
+D109. Snail's pace ~ SLOW
+D110. Part with for pay ~ SELL
+D111. Thrift shop disclaimer ~ ASIS
+D113. Transport for E.T. ~ UFO
+D115. Kicker's prop ~ TEE
+
+Printed with puzzle:
+now offering wall-beds
+CALIFORNIA CLOSETS
+bedroom garage family room media room
+Call today for a free in-home consultation 800.225.6901 |californiaclosets.com
+Showrooms in: Brighton, Danvers. Wellesley. Hyannis & Hopkinton Serving New England
+
+Assembly flags:
+no key found in this issue
+
+OCR review flags:
+A84: number-missing
+D15: number-missing
+D48: number-missing
+
+Text step, unsure:
+title: L1 runs the feature name, title and byline together on one line; the values are split from it
+A43: read as 'Apres-ski'; the printed accent (Après) can't be checked, this clue is not on the sheet
