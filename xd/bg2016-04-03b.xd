@@ -1,204 +1,203 @@
-Title: WELLNESS CENTER
-Author: Brendan Emmett Quigley
+Title: FOURSOMES
+Author: Emily Cox and Henry Rathvon
+Feature: The Globe Puzzle / Harder
 Date: 2016-04-03
 Solution: matched
 Solution-Source: https://www.newspapers.com/image/444543935/
-Source: https://www.newspapers.com/image/444544062/
+Source: https://www.newspapers.com/image/444544078/
 Assembly: hands-off: the harvest's regions, parts linked by assembly (xword-ocr), no person's edits
-Byline: By Brendan Emmett Quigley
-Feature: THE GLOBE PUZZLE / EASIER
-Text-Review: AI reviewer (claude-fable-5-1): 17 change(s), listed in the review
-Proof-Packet: bostonglobe-print/proof/run2/bg2016-04-03-L001 (xd e6ab5854f27f)
-Shipped: Alex DeJarnatt (recorded by Claude) 2026-10-23 on the batch page: Shipped for the gxd merge request (Alex, 2026-10-23; recorded by Claude at his request), after the J proof above.
+Byline: By Emily Cox and Henry Rathvon
+Text-Review: AI reviewer (claude-fable-5-1): 35 change(s), listed in the review
+Proof-Packet: bostonglobe-print/proof/run2/bg2016-04-03-L002 (xd cdd860d17e0b)
+Shipped: Alex DeJarnatt (recorded by Claude) 2026-10-23 on the batch page: Shipped for the gxd merge request (Alex, 2026-10-23; recorded by Claude at his request), after the run2 proof above.
 Proof: ready by Claude (at Alex's request) 2026-10-23
 Proof-Edits: 1 applied, from Claude (at Alex's request)
 
 
-SATED##WORE#BUDD##WOK
-LLAMA#RECUR#ASIN#JIVE
-EARTHMOTHER#HUSHMONEY
-USPS#ORSO#STARR#PEENS
-TKO#STEN###EMPANEL###
-HANNAHMONTANA#EEG#EPA
-###BIS#WIELD#FLASHMOB
-GAHAN###HATEMAIL#EARL
-AMO#TGIF#KOREA#SPANKY
-SORT#OOOF#SEM#SCARAB#
-PUSHMOWERS#ROACHMOTEL
-#NERUDA#APB#SHOO#FILA
-STRADS#STEEP#AWNS#OLD
-ODAS#PAUSEFOR###KANYE
-MUCHMORE#DOSES#JON###
-EEE#ARC#HIGHMODERNISM
-###ONTHREE###REST#MOI
-ILIAD#DEERE#WENT#OPAL
-MUSHMOUTH#SPANISHMOSS
-ACLU#OKRA#PELTS#MARTA
-NYE##MEOW#NATO##ONTOP
+PACE#SCENT#GONE#AQABA
+ORAL#HOVER#ROAR#LUZON
+PANAMAMAMAMAMBO#LETBY
+URANIUM#OMEN#SISI#EBB
+PAD#GNAT##DOL#CAN#CIO
+STAG###IMPALALALALAND
+##DAMN#BALLADE#SLANGY
+ADAGIO#IRE##ONEALS###
+SAD#MEGAGAGAGAMS#SPAR
+FRAGILE###OKAPI##OHNO
+ANDE#STR#FRA#ELS#EONS
+CIAO##HATED###ICEDTEA
+TTYL#SOHOHOHOHOAX#OAR
+###ONETWO##OBI#LASTLY
+APOGEE#ATABOIL#AMMO##
+TOKYOYOYOYOKEL###ATOM
+LIT#NOD#OKS##SIGH#ORO
+ENO#AUEL#RCMP#SOMATIC
+ATBAT#TABOOBOOBOOBOOK
+STERE#TRAY#ALOUD#COLE
+TORTS#ENID#SOFTY#SKED
 
 
-A1. Quite full ~ SATED
-A6. Put on ~ WORE
-A10. Melville's Billy ~ BUDD
-A14. Stir-frying pot ~ WOK
-A17. Animal that spits ~ LLAMA
-A18. Happen twice ~ RECUR
-A19. Words of clarity ~ ASIN
-A20. Street talk ~ JIVE
-A21. Nursing figure ~ EARTHMOTHER
-A23. Bribes ~ HUSHMONEY
-A25. Its logo is an eagle (abbr.) ~ USPS
-A26. Roughly ~ ORSO
-A27. “The End” drummer ~ STARR
-A29. Hammer ends ~ PEENS
-A30. Mayweather win (abbr.) ~ TKO
-A31. British submachine gun ~ STEN
-A32. Put in a jury box ~ EMPANEL
-A34. Miley Stewart's rock-star alias ~ HANNAHMONTANA
-A39. Head shot? ~ EEG
-A40. Agcy. regulating lead in water ~ EPA
-A43. People who go both ways ~ BIS
-A44. Handle deftly ~ WIELD
-A45. Organized publicity stunt, say ~ FLASHMOB
-A47. Depeche Mode singer David ~ GAHAN
-A50. Mean letters ~ HATEMAIL
-A52. Marquis underling ~ EARL
-A53. Latin 101 word ~ AMO
-A54. “This week was rough” ~ TGIF
-A58. The Hermit Kingdom ~ KOREA
-A59. Our Gang kid ~ SPANKY
-A61. Database command ~ SORT
-A63. “Ugggh” ~ OOOF
-A65. 16 weeks at a U. ~ SEM
-A66. Egyptian beetle ~ SCARAB
-A67. Landscaper's tools ~ PUSHMOWERS
-A70. Bug catcher ~ ROACHMOTEL
-A73. Poet Pablo ~ NERUDA
-A74. Message to cruisers (abbr.) ~ APB
-A76. “Ya botherin' me” ~ SHOO
-A77. Nike rival ~ FILA
-A78. Pricey violins ~ STRADS
-A79. Pricey ~ STEEP
-A81. Wheat bristles ~ AWNS
-A83. Past its prime ~ OLD
-A84. Harem quarters ~ ODAS
-A85. Take a break to allow, as an ad ~ PAUSEFOR
-A88. North West's dad ~ KANYE
-A90. The Fantasticks song ~ MUCHMORE
-A92. Pharmacy amounts ~ DOSES
-A94. Hamm actor ~ JON
-A95. Shoe meas. ~ EEE
-A96. Lob's path ~ ARC
-A97. Belief that technology will reorder the social world ~ HIGHMODERNISM
-A102. Time to attack? ~ ONTHREE
-A104. Enjoy a staycation ~ REST
-A105. Lille old me? ~ MOI
-A106. Troy story ~ ILIAD
-A109. Big name in 67 Across ~ DEERE
-A111. Left ~ WENT
-A112. Whitish stone ~ OPAL
-A113. Hard-to-understand person ~ MUSHMOUTH
-A115. Growth on southern trees ~ SPANISHMOSS
-A118. Org. that does the right thing? ~ ACLU
-A119. Cajun fried pod ~ OKRA
-A120. Some hides ~ PELTS
-A121. Atlanta's subway ~ MARTA
-A122. “Auld Lang Syne” day (abbr.) ~ NYE
-A123. Cat call? ~ MEOW
-A124. Defense gp. ~ NATO
-A125. Ahead ~ ONTOP
+A1. Tempo ~ PACE
+A5. Hound's trail ~ SCENT
+A10. Out of the park ~ GONE
+A14. Red Sea port ~ AQABA
+A19. Word-of-mouth ~ ORAL
+A20. Make like a copter ~ HOVER
+A21. Make like a lion ~ ROAR
+A22. Manila's island ~ LUZON
+A23. Dance of a Central American parent? ~ PANAMAMAMAMAMBO
+A26. Permit to pass ~ LETBY
+A27. Element 92 ~ URANIUM
+A28. Sign to heed ~ OMEN
+A29. Spanish ayes? ~ SISI
+A31. Outflowing tide ~ EBB
+A32. Heliport area ~ PAD
+A33. Thing to swat ~ GNAT
+A35. 100 cts. ~ DOL
+A37. Fire ~ CAN
+A38. AFL-__ ~ CIO
+A39. Exclusively male ~ STAG
+A41. Where the antelope act crazy? ~ IMPALALALALAND
+A46. Rhett's swear word ~ DAMN
+A49. Verse with an envoi ~ BALLADE
+A50. Like street talk ~ SLANGY
+A51. “Slow it down” ~ ADAGIO
+A53. Emotional state ~ IRE
+A54. Paper Moon twosome ~ ONEALS
+A56. Blue ~ SAD
+A57. Big crazy legs? ~ MEGAGAGAGAMS
+A61. Train for a bout ~ SPAR
+A65. Not for the ham-fisted ~ FRAGILE
+A67. Giraffe's cousin ~ OKAPI
+A68. "Horrors!" ~ OHNO
+A69. B __ (burglary) ~ ANDE
+A70. Cello sect. ~ STR
+A72. Monk's address ~ FRA
+A73. PGA great Ernie ~ ELS
+A75. Big time chunks ~ EONS
+A76. Word to an amico ~ CIAO
+A77. Reviled ~ HATED
+A79. Hot day's cooler ~ ICEDTEA
+A81. Texter's sign-off ~ TTYL
+A82. London scam involving snack cakes? ~ SOHOHOHOHOAX
+A86. Crew gear ~ OAR
+A87. Blow combo ~ ONETWO
+A89. Kimono sash ~ OBI
+A90. In conclusion ~ LASTLY
+A92. Orbit point ~ APOGEE
+A95. Bubbling hot ~ ATABOIL
+A98. BBs or buckshot ~ AMMO
+A99. Japanese rube with a string-toy act? ~ TOKYOYOYOYOKEL
+A101. Building block ~ ATOM
+A104. Afire ~ LIT
+A105. Dreamland ~ NOD
+A106. Signs off on ~ OKS
+A107. Evidence of ennui ~ SIGH
+A111. Pizarro's gold ~ ORO
+A112. Roxy Music's Brian ~ ENO
+A113. Creator of Ayla ~ AUEL
+A115. Sgt. Preston's org. ~ RCMP
+A118. Of the body ~ SOMATIC
+A120. Event at home ~ ATBAT
+A122. Volume listing forbidden little sins? ~ TABOOBOOBOOBOOK
+A125. 35.315 cubic feet ~ STERE
+A126. Makeshift sled ~ TRAY
+A127. For ears to hear ~ ALOUD
+A128. Nat or Natalie ~ COLE
+A129. Some legal cases ~ TORTS
+A130. City west of Tulsa ~ ENID
+A131. Sentimental type ~ SOFTY
+A132. Slate, for short ~ SKED
 
-D1. One on the crime scene ~ SLEUTH
-D2. Panhandle state ~ ALASKA
-D3. Large game fish ~ TARPON
-D4. Chest beaters? (abbr.) ~ EMTS
-D5. Doo-__ ~ DAH
-D6. Slushy stuff ~ WETSNOW
-D7. Twice cuatro ~ OCHO
-D8. Have second thoughts about ~ RUE
-D9. Goes wrong ~ ERRS
-D10. __ Islands (Nassau setting) ~ BAHAMA
-D11. Snatch the throne ~ USURP
-D12. Britain's only Jewish prime minister ~ DISRAELI
-D13. Letters after Jeanne Shaheen's name ~ DNH
-D14. Sommelier's suggestion ~ WINE
-D15. Bread maker's need ~ OVEN
-D16. Codebreaking finds ~ KEYS
-D18. Composer Ned ~ ROREM
-D20. Actor Kinnaman ~ JOEL
-D22. They're really into clothes ~ MOTHS
-D24. Some digital video files ~ MPEGS
-D28. Not so tough ~ TENDERER
-D31. Selfless person ~ SAINT
-D33. Journey guitarist ~ NEALSCHON
-D35. Gp. for the sport of Kings ~ NBA
-D36. Biomed org. ~ NIH
-D37. Furniture wood ~ TEAK
-D38. Choir parts ~ ALTOS
-D40. Bad odors ~ EMANATION
-D41. Bacon alternative ~ PORKBELLY
-D42. With skill ~ ABLY
-D45. Spirit regulators (abbr.) ~ FAA
-D46. Find out about ~ HEAROF
-D47. [Surely, you don't mean...!] ~ GASP
-D48. Invoice line ~ AMOUNTDUE
-D49. Close contest ~ HORSERACE
-D51. New office policy notes ~ MEMOS
-D55. Sore loser's opposite ~ GOODSPORT
-D56. First caucus state ~ IOWA
-D57. One in mortal combat ~ FOE
-D60. HR director on Archer ~ PAM
-D62. Whip but good ~ THRASH
-D64. Brothers' homes ~ FRATS
-D66. Garbage boat ~ SCOW
-D68. Stuff slung by a PAC ~ MUD
-D69. Less poky ~ SPEEDIER
-D71. “Much clearer” ~ AHA
-D72. Scoop (out) ~ LADE
-D75. Cover in mist ~ BEFOG
-D78. A handful ~ SOME
-D79. Seek damages ~ SUE
-D80. Highly tony ~ POSH
-D82. Hybrid golfer's garment ~ SKORT
-D86. Franz Ferdinand's title ~ ARCHDUKE
-D87. “Electrolite” band ~ REM
-D89. Writer Beattie ~ ANN
-D91. Hard-shelled candy ~ MANDM
-D93. Kia SUV ~ SORENTO
-D94. Drops quips ~ JESTS
-D97. Corny laugh ~ HEEHAW
-D98. Comic Leary ~ DENIS
-D99. Foreign good ~ IMPORT
-D100. Such that one might ~ SOASTO
-D101. Country singer Ronnie ~ MILSAP
-D102. Interstate H1 spot ~ OAHU
-D103. So out it's in again ~ RETRO
-D106. Bowie's widow ~ IMAN
-D107. Playwright Prebble ~ LUCY
-D108. Getaway or castaway spot ~ ISLE
-D110. 30 for 30 channel ~ ESPN
-D111. Heisenberg, really ~ WALT
-D112. Muscat country ~ OMAN
-D114. __-pah ~ OOM
-D116. "Split” veggie ~ PEA
-D117. Med. plan that sits in the middle of this puzzle's 10 theme answers ~ HMO
-
-Printed with puzzle:
-Join Us for the Dansko Try On Event Saturday, April 9th from 10Am-3PM Free gift with purchase.
-dansko
-Enter to win a Free pair of Shoes.
-25 Kempton Place | West Newton THEBARNSHOES.COM Store Hours: M-F 9:30 AM - 9:00 PM
-THE BARN
+D1. Window adverts ~ POPUPS
+D2. Where Noah stopped ~ ARARAT
+D3. When absurd art is celebrated up north? ~ CANADADADADAY
+D4. Vivacity ~ ELAN
+D5. __ of the Dead ~ SHAUN
+D6. Sign for a pause ~ COMMA
+D7. Juan Peron's wife ~ EVA
+D8. Pixar fish ~ NEMO
+D9. Ride on rails ~ TRAM
+D10. Yogurt parfait layer ~ GRANOLA
+D11. Tuba syllable? ~ OOM
+D12. Cops ~ NABS
+D13. Beethoven's Third ~ EROICA
+D14. On the whole ~ ALLINALL
+D15. What's what in Spain ~ QUE
+D16. From the halls of Montezuma? ~ AZTECAN
+D17. Going up and down ~ BOBBING
+D18. “__ home?” ~ ANYBODY
+D24. Russian fighter ~ MIG
+D25. Badge of honor ~ MEDAL
+D30. Hot stuff ~ SALSAS
+D34. Bone in your shin ~ TIBIA
+D36. Europe's largest lake ~ LADOGA
+D40. Comic bit ~ GAG
+D42. Helgenberger on CSI ~ MARG
+D43. Entreaty ~ PLEA
+D44. Delaware tribe ~ LENAPE
+D45. Rope-snagged ~ LASSOED
+D47. La Boheme heroine ~ MIMI
+D48. Year-end songs ~ NOELS
+D51. Take __ (don't question) ~ ASFACT
+D52. “Oh, fudge!" ~ DARNIT
+D55. Estevez in acting ~ EMILIO
+D58. Start on a streak ~ GETHOT
+D59. Astronaut Cooper, to pals ~ GORDO
+D60. Alias letters ~ AKA
+D62. Dog's-eye snapshot of Oz? ~ PHOTOTOTOTOOK
+D63. Temper ~ ANNEAL
+D64. Prayer beads ~ ROSARY
+D66. Rocky subject ~ GEOLOGY
+D71. Town near Newark ~ RAHWAY
+D72. Yiddish “yuck” ~ FEH
+D74. Opera house La __ ~ SCALA
+D78. La-di-da ~ TOOTOO
+D80. SAT, e.g. ~ EXAM
+D82. “Bye!" ~ SEEYOU
+D83. Pan menacer ~ HOOK
+D84. Theater award ~ OBIE
+D85. Roman septet ~ HILLS
+D88. New arrivals ~ NEONATES
+D91. Wee, in Dundee ~ SMA
+D92. No fewer than ~ ATLEAST
+D93. Indicate ~ POINTTO
+D94. Fest time in Bavaria ~ OKTOBER
+D96. Belushi's blues “brother” ~ AYKROYD
+D97. Chocolate syrup ~ BOSCO
+D100. Swan Lake princess ~ ODETTE
+D102. Maryland's state bird ~ ORIOLE
+D103. Made fun of ~ MOCKED
+D108. “Life __ a dream” ~ ISBUT
+D109. “Oh boy!” ~ GOODY
+D110. Med. plan ~ HMO
+D114. “That'll __ ya!” ~ LARN
+D116. Wharton degs. ~ MBAS
+D117. Sport with mallets ~ POLO
+D119. Fundamentals ~ ABCS
+D121. Jazzman Tatum ~ ART
+D123. Anna and the King actress Ling ~ BAI
+D124. Punch-in-the-gut grunt ~ OOF
 
 OCR review flags:
-A54: number-missing
+A46: number-missing
+A49: number-missing
+A65: number-missing
 A76: number-missing
-A111: low-ocr-score
-D10: number-missing
-D42: number-missing
-D45: number-missing
-D71: number-missing
+A115: number-missing
+A125: number-missing
+A128: number-missing
+D4: number-missing
+D6: number-missing
+D14: number-missing
+D24: number-missing
+D25: number-missing
+D72: number-missing, low-ocr-score
+D96: number-missing
+D109: number-missing
+D116: number-missing
 
 Text step, unsure:
-title: L1 is the heading (THE GLOBE PUZZLE / EASIER, then WELLNESS CENTER / By Brendan Emmett Quigley); the header values are split from it
-A113: the hyphen in 'Hard-to-understand' is assumed from the wrap; the sheet cuts the clue off
+title: L1 is the whole heading; title and byline given in values since no line carries them alone
+A69: blank spacing assumed; not on the sheet
+D74: the blank after 'La' is assumed from the Globe's __ style; the sheet cuts off below 'Opera house'
