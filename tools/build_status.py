@@ -91,6 +91,51 @@ def gxd_files(gxd: Path) -> dict[str, dict]:
     return out
 
 
+# The early series, indexed in the newyorkworld repo (boston-globe* papers in printings.tsv).
+# series -> (paper id in printings.tsv, weekday, first date). A series runs to the last page held.
+EARLY = {
+    "sunday": ("boston-globe", 6, dt.date(1917, 2, 25)),
+    "saturday-1923": ("boston-globe-saturday", 5, dt.date(1923, 5, 26)),
+    "wednesday-1924": ("boston-globe-wednesday", 2, dt.date(1924, 2, 6)),
+}
+
+
+def early_rows(nyw: Path, row) -> None:
+    """One row per expected puzzle of the early series, from newyorkworld's printings.tsv (page images, in
+    bostonglobe-scans/print), gaps.tsv and searches.tsv. ready: a page image is held; not-printed: the Globe
+    ran no puzzle that day (searches.tsv says so, or the next page's solution answers the week before);
+    need-image: a puzzle we expect and have no page for. Rebuilt from those files, never edited by hand."""
+    for name in ("printings.tsv", "gaps.tsv", "searches.tsv"):
+        if not (nyw / name).exists():
+            raise SystemExit(f"{nyw / name} not found: pass --nyw <newyorkworld checkout>")
+    printings = [r for r in read_tsv(nyw / "printings.tsv") if r["paper"] in {p for p, _, _ in EARLY.values()}
+                 and not r["notes"].lower().startswith(("no new puzzle", "no crossword"))]
+    held = {(r["paper"], r["date"]): r for r in printings}
+    skips: dict[str, str] = {}  # Sunday -> why the Globe ran no puzzle
+    for g in read_tsv(nyw / "gaps.tsv"):
+        if g["paper"] == "boston-globe" and g["kind"] == "skip-confirmed":
+            for day in g["sundays"].split():
+                skips[day] = f"Globe printed no puzzle: the {g['before']} page's solution answers the {g['after']} puzzle"
+    for s in read_tsv(nyw / "searches.tsv"):
+        if s["paper"] == "boston-globe" and s["result"] == "not-carried":
+            skips[s["date"]] = f"Globe printed no puzzle ({s['note']})" if s["note"] else "Globe printed no puzzle"
+    for series, (paper, weekday, first) in EARLY.items():
+        last = max((dt.date.fromisoformat(r["date"]) for r in printings if r["paper"] == paper), default=first)
+        d = first
+        while d <= last:
+            day = d.isoformat()
+            r = held.get((paper, day))
+            if r:
+                credit = re.sub(r"^(by|from)\s+", "", r["credit"].strip(), flags=re.I)
+                note = f"page {r['printed_page'] or r['page']}; {r['file']}"
+                row(day, series, "", state="ready", title=r["heading"], author=credit, source="newspapers.com print", note=note)
+            elif series == "sunday" and day in skips:
+                row(day, series, "", state="not-printed", note=skips[day])
+            else:
+                row(day, series, "", state="need-image", note="ran in print; no page image yet")
+            d += dt.timedelta(days=7)
+
+
 def read_tsv(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -101,6 +146,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--gxd", default="../gxd-upstream", help="gxd checkout with the REFS fetched")
     ap.add_argument("--harvest", default="../xword-ocr/harvests/bostonglobe", help="epp globe-wayback output")
+    ap.add_argument("--nyw", default="../newyorkworld", help="newyorkworld checkout (printings.tsv etc. for the early series)")
     ap.add_argument("--today", default=dt.date.today().isoformat())
     a = ap.parse_args()
 
@@ -129,6 +175,8 @@ def main() -> None:
         else:
             row(day, "sunday", "")
         d += dt.timedelta(days=7)
+
+    early_rows((ROOT / a.nyw).resolve(), row)
 
     # Themeless Weeks from the Puzzmo queue (Globe originals on weekdays).
     for p in puzzmo:

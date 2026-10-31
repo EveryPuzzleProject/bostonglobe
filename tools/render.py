@@ -25,6 +25,7 @@ STATES = [  # (state, label, meaning)
     ("need-image", "Scan wanted", "known to exist in print; we need the page"),
     ("need-answers", "Answers wanted", "in the archive without its answers; we need the solution page"),
     ("missing", "Not found yet", "nothing found yet"),
+    ("not-printed", "Not printed", "the Globe ran no puzzle that day (early series)"),
 ]
 
 
@@ -54,7 +55,7 @@ def e(s: str) -> str:
 def main() -> None:
     rows = read("status.tsv")
     series = read("series.tsv")
-    sundays = [r for r in rows if r["series"] in ("sunday", "sunday-easier")]
+    sundays = [r for r in rows if r["series"] in ("sunday", "sunday-easier") and r["date"] >= "1980"]  # the early series (1917-24) are in the table below, not these counts
     count = collections.Counter(r["state"] for r in sundays)
     by_year = collections.defaultdict(collections.Counter)
     for r in sundays:
@@ -93,7 +94,7 @@ def main() -> None:
         return "\n".join(out)
 
     def legend() -> str:
-        return "".join(f'<span class=key><span class="sw {s}"></span>{lab} <span class=muted>({count[s]})</span></span>' for s, lab, _ in STATES)
+        return "".join(f'<span class=key><span class="sw {s}"></span>{lab} <span class=muted>({count[s]})</span></span>' for s, lab, _ in STATES if count[s] or s != "not-printed")
 
     def series_rows() -> str:
         return "\n".join(
@@ -129,11 +130,11 @@ def main() -> None:
 <title>Crossword Puzzles in the Boston Globe</title>
 <style>
 :root {{ --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e3e0d8; --card:#ffffff; --accent:#8a1c1c;
-  --s-in-gxd:#2f6f4f; --s-in-mr:#4f8fbf; --s-ready:#c9a227; --s-need-image:#c4572c; --s-need-answers:#9a5fb0; --s-missing:#d9d5cc; }}
+  --s-in-gxd:#2f6f4f; --s-in-mr:#4f8fbf; --s-ready:#c9a227; --s-need-image:#c4572c; --s-need-answers:#9a5fb0; --s-missing:#d9d5cc; --s-not-printed:#b7b0a2; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#e07a6a;
-  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; }} }}
+  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; --s-not-printed:#5a574f; }} }}
 :root[data-theme="dark"] {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#e07a6a;
-  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; }}
+  --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; --s-not-printed:#5a574f; }}
 * {{ box-sizing:border-box }}
 body {{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
 main {{ max-width:960px; margin:0 auto; padding:32px 16px 64px }}
@@ -156,7 +157,7 @@ details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} .summary {{ font
 .key {{ display:inline-flex; align-items:center; gap:6px }} .sw {{ width:12px; height:12px; border-radius:2px; display:inline-block }}
 .pill {{ font-size:12px; padding:1px 6px; border-radius:9px; color:#fff; white-space:nowrap }}
 .pill.in-gxd {{ background:var(--s-in-gxd) }} .pill.in-mr {{ background:var(--s-in-mr) }} .pill.ready {{ background:var(--s-ready); color:#1d1d1b }}
-.pill.need-image {{ background:var(--s-need-image) }} .pill.need-answers {{ background:var(--s-need-answers) }} .pill.missing {{ background:var(--s-missing); color:var(--fg) }}
+.pill.need-image {{ background:var(--s-need-image) }} .pill.need-answers {{ background:var(--s-need-answers) }} .pill.missing {{ background:var(--s-missing); color:var(--fg) }} .pill.not-printed {{ background:var(--s-not-printed); color:var(--fg) }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
 input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
 footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--muted) }}
