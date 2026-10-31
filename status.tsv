@@ -1,5 +1,512 @@
 id	date	series	slot	state	title	author	gxd	mr	source	note
-bg1917-02-25	1917-02-25	sunday		in-gxd	CROSS-WORD PUZZLE of February 25, 1917		bg1917-02-25		gxd	
+bg1917-02-25	1917-02-25	sunday		in-gxd	CROSS-WORD PUZZLE of February 25, 1917		bg1917-02-25		newspapers.com print	page Page 4, The Boston Sunday Globe, February 25, 1917; The_Boston_Globe_1917_02_25_4.jpg
+bg1917-03-04	1917-03-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 49, The Boston Sunday Globe, March 4, 1917 (Household Department page); The_Boston_Globe_1917_03_04_49.jpg
+bg1917-03-11	1917-03-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 49; The_Boston_Globe_1917_03_11_49.jpg
+bg1917-03-18	1917-03-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 16; The_Boston_Globe_1917_03_18_16.jpg
+bg1917-03-25	1917-03-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 42 (Boston Sunday Globe, March 25, 1917), bottom-center column, below theatre-news column; The_Boston_Globe_1917_03_25_42.jpg
+bg1917-04-01	1917-04-01	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 47, The Boston Sunday Globe, April 1, 1917; The_Boston_Globe_1917_04_01_47.jpg
+bg1917-04-08	1917-04-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 43; The_Boston_Globe_1917_04_08_43.jpg
+bg1917-04-15	1917-04-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 56; The_Boston_Globe_1917_04_15_56.jpg
+bg1917-04-22	1917-04-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 43; The_Boston_Globe_1917_04_22_43.jpg
+bg1917-04-29	1917-04-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 53; The_Boston_Globe_1917_04_29_53.jpg
+bg1917-05-06	1917-05-06	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 68; The_Boston_Globe_1917_05_06_68.jpg
+bg1917-05-13	1917-05-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 36; The_Boston_Globe_1917_05_13_36.jpg
+bg1917-05-20	1917-05-20	sunday		not-printed						Globe printed no puzzle (nothing ran in between: the 1917-05-27 page's solution answers the 1917-05-13 puzzle; Alex DeJarnatt searched and browsed the 05-20 issue on Newspapers.com (2026-10-30) and found no puzzle)
+bg1917-05-27	1917-05-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 51; The_Boston_Globe_1917_05_27_51.jpg
+bg1917-06-03	1917-06-03	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 62, The Boston Sunday Globe, June 3, 1917; The_Boston_Globe_1917_06_03_62.jpg
+bg1917-06-10	1917-06-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 54; The_Boston_Globe_1917_06_10_54.jpg
+bg1917-06-17	1917-06-17	sunday		not-printed						Globe printed no puzzle: the 1917-07-08 page's solution answers the 1917-06-10 puzzle
+bg1917-06-24	1917-06-24	sunday		not-printed						Globe printed no puzzle: the 1917-07-08 page's solution answers the 1917-06-10 puzzle
+bg1917-07-01	1917-07-01	sunday		not-printed						Globe printed no puzzle: the 1917-07-08 page's solution answers the 1917-06-10 puzzle
+bg1917-07-08	1917-07-08	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 38, The Boston Sunday Globe, July 8, 1917; The_Boston_Globe_1917_07_08_38.jpg
+bg1917-07-15	1917-07-15	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 38, The Boston Sunday Globe, July 15, 1917; The_Boston_Globe_1917_07_15_38.jpg
+bg1917-07-22	1917-07-22	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 37, The Boston Sunday Globe, July 22, 1917; The_Boston_Globe_1917_07_22_37.jpg
+bg1917-07-29	1917-07-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page Page 38, The Boston Sunday Globe, July 29, 1917; The_Boston_Globe_1917_07_29_38.jpg
+bg1917-08-05	1917-08-05	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 34, The Boston Sunday Globe, August 5, 1917; The_Boston_Globe_1917_08_05_34.jpg
+bg1917-08-12	1917-08-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page Page 49, The Boston Sunday Globe, August 12, 1917; The_Boston_Globe_1917_08_12_49.jpg
+bg1917-08-19	1917-08-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page Page 41, The Boston Sunday Globe, August 19, 1917; The_Boston_Globe_1917_08_19_41.jpg
+bg1917-08-26	1917-08-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page Page 43, The Boston Sunday Globe, August 26, 1917; The_Boston_Globe_1917_08_26_43.jpg
+bg1917-09-02	1917-09-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page Page 47, The Boston Sunday Globe, September 2, 1917; The_Boston_Globe_1917_09_02_47.jpg
+bg1917-09-09	1917-09-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page Page 50, The Boston Sunday Globe, September 9, 1917; The_Boston_Globe_1917_09_09_50.jpg
+bg1917-09-16	1917-09-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 54; The_Boston_Globe_1917_09_16_54.jpg
+bg1917-09-23	1917-09-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 40; The_Boston_Globe_1917_09_23_40.jpg
+bg1917-09-30	1917-09-30	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 53; The_Boston_Globe_1917_09_30_53.jpg
+bg1917-10-07	1917-10-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 44; The_Boston_Globe_1917_10_07_44.jpg
+bg1917-10-14	1917-10-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 44; The_Boston_Globe_1917_10_14_44.jpg
+bg1917-10-21	1917-10-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 58; The_Boston_Globe_1917_10_21_58.jpg
+bg1917-10-28	1917-10-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 59; The_Boston_Globe_1917_10_28_59.jpg
+bg1917-11-04	1917-11-04	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 50; The_Boston_Globe_1917_11_04_50.jpg
+bg1917-11-11	1917-11-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 45; The_Boston_Globe_1917_11_11_45.jpg
+bg1917-11-18	1917-11-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 40; The_Boston_Globe_1917_11_18_40.jpg
+bg1917-11-25	1917-11-25	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 40; The_Boston_Globe_1917_11_25_40.jpg
+bg1917-12-02	1917-12-02	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 45, The Boston Sunday Globe, December 2, 1917; The_Boston_Globe_1917_12_02_45.jpg
+bg1917-12-09	1917-12-09	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 47; The_Boston_Globe_1917_12_09_47.jpg
+bg1917-12-16	1917-12-16	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 51; The_Boston_Globe_1917_12_16_51.jpg
+bg1917-12-23	1917-12-23	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 30; The_Boston_Globe_1917_12_23_30.jpg
+bg1917-12-30	1917-12-30	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 38; The_Boston_Globe_1917_12_30_38.jpg
+bg1918-01-06	1918-01-06	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 38; The_Boston_Globe_1918_01_06_38.jpg
+bg1918-01-13	1918-01-13	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 35; The_Boston_Globe_1918_01_13_35.jpg
+bg1918-01-20	1918-01-20	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 44; The_Boston_Globe_1918_01_20_44.jpg
+bg1918-01-27	1918-01-27	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 37; The_Boston_Globe_1918_01_27_37.jpg
+bg1918-02-03	1918-02-03	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 46; The_Boston_Globe_1918_02_03_46.jpg
+bg1918-02-10	1918-02-10	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 48; The_Boston_Globe_1918_02_10_48.jpg
+bg1918-02-17	1918-02-17	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 33; The_Boston_Globe_1918_02_17_33.jpg
+bg1918-02-24	1918-02-24	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 48; The_Boston_Globe_1918_02_24_48.jpg
+bg1918-03-03	1918-03-03	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 56; The_Boston_Globe_1918_03_03_56.jpg
+bg1918-03-10	1918-03-10	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 50; The_Boston_Globe_1918_03_10_50.jpg
+bg1918-03-17	1918-03-17	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 45; The_Boston_Globe_1918_03_17_45.jpg
+bg1918-03-24	1918-03-24	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 44; The_Boston_Globe_1918_03_24_44.jpg
+bg1918-03-31	1918-03-31	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 54; The_Boston_Globe_1918_03_31_54.jpg
+bg1918-04-07	1918-04-07	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 47; The_Boston_Globe_1918_04_07_47.jpg
+bg1918-04-14	1918-04-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 41; The_Boston_Globe_1918_04_14_41.jpg
+bg1918-04-21	1918-04-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 61; The_Boston_Globe_1918_04_21_61.jpg
+bg1918-04-28	1918-04-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 46; The_Boston_Globe_1918_04_28_46.jpg
+bg1918-05-05	1918-05-05	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 50; The_Boston_Globe_1918_05_05_50.jpg
+bg1918-05-12	1918-05-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 51; The_Boston_Globe_1918_05_12_51.jpg
+bg1918-05-19	1918-05-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 52; The_Boston_Globe_1918_05_19_52.jpg
+bg1918-05-26	1918-05-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 52; The_Boston_Globe_1918_05_26_52.jpg
+bg1918-06-02	1918-06-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 52; The_Boston_Globe_1918_06_02_52.jpg
+bg1918-06-09	1918-06-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 60; The_Boston_Globe_1918_06_09_60.jpg
+bg1918-06-16	1918-06-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 39; The_Boston_Globe_1918_06_16_39.jpg
+bg1918-06-23	1918-06-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 32; The_Boston_Globe_1918_06_23_32.jpg
+bg1918-06-30	1918-06-30	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 44; The_Boston_Globe_1918_06_30_44.jpg
+bg1918-07-07	1918-07-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 41; The_Boston_Globe_1918_07_07_41.jpg
+bg1918-07-14	1918-07-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 44; The_Boston_Globe_1918_07_14_44.jpg
+bg1918-07-21	1918-07-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 50; The_Boston_Globe_1918_07_21_50.jpg
+bg1918-07-28	1918-07-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 38; The_Boston_Globe_1918_07_28_38.jpg
+bg1918-08-04	1918-08-04	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 43; The_Boston_Globe_1918_08_04_43.jpg
+bg1918-08-11	1918-08-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 48; The_Boston_Globe_1918_08_11_48.jpg
+bg1918-08-18	1918-08-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 37; The_Boston_Globe_1918_08_18_37.jpg
+bg1918-08-25	1918-08-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 42; The_Boston_Globe_1918_08_25_42.jpg
+bg1918-09-01	1918-09-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 36; The_Boston_Globe_1918_09_01_36.jpg
+bg1918-09-08	1918-09-08	sunday		not-printed						Globe printed no puzzle (Alex checked the page 2026-10-31: the Globe printed a comics page in place of the puzzle; the 1918-09-15 page's solution answers the 1918-09-01 puzzle)
+bg1918-09-15	1918-09-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 39; The_Boston_Globe_1918_09_15_39.jpg
+bg1918-09-22	1918-09-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 42; The_Boston_Globe_1918_09_22_42.jpg
+bg1918-09-29	1918-09-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 51; The_Boston_Globe_1918_09_29_51.jpg
+bg1918-10-06	1918-10-06	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 57; The_Boston_Globe_1918_10_06_57.jpg
+bg1918-10-13	1918-10-13	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 48; The_Boston_Globe_1918_10_13_48.jpg
+bg1918-10-20	1918-10-20	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 59; The_Boston_Globe_1918_10_20_59.jpg
+bg1918-10-27	1918-10-27	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 56; The_Boston_Globe_1918_10_27_56.jpg
+bg1918-11-03	1918-11-03	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 65; The_Boston_Globe_1918_11_03_65.jpg
+bg1918-11-10	1918-11-10	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 54; The_Boston_Globe_1918_11_10_54.jpg
+bg1918-11-17	1918-11-17	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 69; The_Boston_Globe_1918_11_17_69.jpg
+bg1918-11-24	1918-11-24	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 69; The_Boston_Globe_1918_11_24_69.jpg
+bg1918-12-01	1918-12-01	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 63; The_Boston_Globe_1918_12_01_63.jpg
+bg1918-12-08	1918-12-08	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 67; The_Boston_Globe_1918_12_08_67.jpg
+bg1918-12-15	1918-12-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 10 (file page 14); The_Boston_Globe_1918_12_15_14.jpg
+bg1918-12-22	1918-12-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11 (file page 63); The_Boston_Globe_1918_12_22_63.jpg
+bg1918-12-29	1918-12-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13 (file page 63); The_Boston_Globe_1918_12_29_63.jpg
+bg1919-01-05	1919-01-05	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 6; The_Boston_Globe_1919_01_05_58.jpg
+bg1919-01-12	1919-01-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11 (file page 71); The_Boston_Globe_1919_01_12_71.jpg
+bg1919-01-19	1919-01-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13 (file page 73); The_Boston_Globe_1919_01_19_73.jpg
+bg1919-01-26	1919-01-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11? (page number blotted; file page 67); The_Boston_Globe_1919_01_26_67.jpg
+bg1919-02-02	1919-02-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7 (file page 69); The_Boston_Globe_1919_02_02_69.jpg
+bg1919-02-09	1919-02-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7 (file page 71); The_Boston_Globe_1919_02_09_71.jpg
+bg1919-02-16	1919-02-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7? (page number not read; file page 73); The_Boston_Globe_1919_02_16_73.jpg
+bg1919-02-23	1919-02-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13 (file page 63); The_Boston_Globe_1919_02_23_63.jpg
+bg1919-03-02	1919-03-02	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 66; The_Boston_Globe_1919_03_02_66.jpg
+bg1919-03-09	1919-03-09	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 76; The_Boston_Globe_1919_03_09_76.jpg
+bg1919-03-16	1919-03-16	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1919_03_16_87.jpg
+bg1919-03-23	1919-03-23	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 81; The_Boston_Globe_1919_03_23_81.jpg
+bg1919-03-30	1919-03-30	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 69; The_Boston_Globe_1919_03_30_69.jpg
+bg1919-04-06	1919-04-06	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1919_04_06_87.jpg
+bg1919-04-13	1919-04-13	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1919_04_13_87.jpg
+bg1919-04-20	1919-04-20	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1919_04_20_87.jpg
+bg1919-04-27	1919-04-27	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1919_04_27_87.jpg
+bg1919-05-04	1919-05-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 79; The_Boston_Globe_1919_05_04_79.jpg
+bg1919-05-11	1919-05-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1919_05_11_88.jpg
+bg1919-05-18	1919-05-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1919_05_18_83.jpg
+bg1919-05-25	1919-05-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 87; The_Boston_Globe_1919_05_25_87.jpg
+bg1919-06-01	1919-06-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 81; The_Boston_Globe_1919_06_01_81.jpg
+bg1919-06-08	1919-06-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1919_06_08_83.jpg
+bg1919-06-15	1919-06-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 85; The_Boston_Globe_1919_06_15_85.jpg
+bg1919-06-22	1919-06-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 91; The_Boston_Globe_1919_06_22_91.jpg
+bg1919-06-29	1919-06-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1919_06_29_83.jpg
+bg1919-07-06	1919-07-06	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 79; The_Boston_Globe_1919_07_06_79.jpg
+bg1919-07-13	1919-07-13	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 14, Sunday Globe Magazine (masthead date not visible); The_Boston_Globe_1919_07_13_84.jpg
+bg1919-07-20	1919-07-20	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 7, Sunday Globe Magazine (masthead date not visible); The_Boston_Globe_1919_07_20_69.jpg
+bg1919-07-27	1919-07-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 75; The_Boston_Globe_1919_07_27_75.jpg
+bg1919-08-03	1919-08-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 73; The_Boston_Globe_1919_08_03_73.jpg
+bg1919-08-10	1919-08-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 73; The_Boston_Globe_1919_08_10_73.jpg
+bg1919-08-17	1919-08-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 74; The_Boston_Globe_1919_08_17_74.jpg
+bg1919-08-24	1919-08-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 75; The_Boston_Globe_1919_08_24_75.jpg
+bg1919-08-31	1919-08-31	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 70; The_Boston_Globe_1919_08_31_70.jpg
+bg1919-09-07	1919-09-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 87; The_Boston_Globe_1919_09_07_87.jpg
+bg1919-09-14	1919-09-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 77; The_Boston_Globe_1919_09_14_77.jpg
+bg1919-09-21	1919-09-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 85; The_Boston_Globe_1919_09_21_85.jpg
+bg1919-09-28	1919-09-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 76; The_Boston_Globe_1919_09_28_76.jpg
+bg1919-10-05	1919-10-05	sunday		ready	Continuous Cross-Word Puzzle				newspapers.com print	page 87; The_Boston_Globe_1919_10_05_87.jpg
+bg1919-10-12	1919-10-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1919_10_12_73.jpg
+bg1919-10-19	1919-10-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 6; The_Boston_Globe_1919_10_19_82.jpg
+bg1919-10-26	1919-10-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11; The_Boston_Globe_1919_10_26_85.jpg
+bg1919-11-02	1919-11-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1919_11_02_93.jpg
+bg1919-11-09	1919-11-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1919_11_09_88.jpg
+bg1919-11-16	1919-11-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11; The_Boston_Globe_1919_11_16_93.jpg
+bg1919-11-23	1919-11-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1919_11_23_85.jpg
+bg1919-11-30	1919-11-30	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1919_11_30_81.jpg
+bg1919-12-07	1919-12-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1919_12_07_85.jpg
+bg1919-12-14	1919-12-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 3; The_Boston_Globe_1919_12_14_79.jpg
+bg1919-12-21	1919-12-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1919_12_21_61.jpg
+bg1919-12-28	1919-12-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1919_12_28_77.jpg
+bg1920-01-04	1920-01-04	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1920_01_04_77.jpg
+bg1920-01-11	1920-01-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 6; The_Boston_Globe_1920_01_11_76.jpg
+bg1920-01-18	1920-01-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1920_01_18_81.jpg
+bg1920-01-25	1920-01-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 3; The_Boston_Globe_1920_01_25_67.jpg
+bg1920-02-01	1920-02-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11; The_Boston_Globe_1920_02_01_75.jpg
+bg1920-02-08	1920-02-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1920_02_08_77.jpg
+bg1920-02-15	1920-02-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 3; The_Boston_Globe_1920_02_15_67.jpg
+bg1920-02-22	1920-02-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1920_02_22_81.jpg
+bg1920-02-29	1920-02-29	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 80; The_Boston_Globe_1920_02_29_80.jpg
+bg1920-03-07	1920-03-07	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 85; The_Boston_Globe_1920_03_07_85.jpg
+bg1920-03-14	1920-03-14	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 100; The_Boston_Globe_1920_03_14_100.jpg
+bg1920-03-21	1920-03-21	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 81; The_Boston_Globe_1920_03_21_81.jpg
+bg1920-03-28	1920-03-28	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 91; The_Boston_Globe_1920_03_28_91.jpg
+bg1920-04-04	1920-04-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1920_04_04_87.jpg
+bg1920-04-11	1920-04-11	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 90; The_Boston_Globe_1920_04_11_90.jpg
+bg1920-04-18	1920-04-18	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 91; The_Boston_Globe_1920_04_18_91.jpg
+bg1920-04-25	1920-04-25	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 86; The_Boston_Globe_1920_04_25_86.jpg
+bg1920-05-02	1920-05-02	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 101; The_Boston_Globe_1920_05_02_101.jpg
+bg1920-05-09	1920-05-09	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 91; The_Boston_Globe_1920_05_09_91.jpg
+bg1920-05-16	1920-05-16	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 88; The_Boston_Globe_1920_05_16_88.jpg
+bg1920-05-23	1920-05-23	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 86; The_Boston_Globe_1920_05_23_86.jpg
+bg1920-05-30	1920-05-30	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 83; The_Boston_Globe_1920_05_30_83.jpg
+bg1920-06-06	1920-06-06	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 93; The_Boston_Globe_1920_06_06_93.jpg
+bg1920-06-13	1920-06-13	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 87; The_Boston_Globe_1920_06_13_87.jpg
+bg1920-06-20	1920-06-20	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 84; The_Boston_Globe_1920_06_20_84.jpg
+bg1920-06-27	1920-06-27	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 5; The_Boston_Globe_1920_06_27_5.jpg
+bg1920-07-04	1920-07-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 77; The_Boston_Globe_1920_07_04_77.jpg
+bg1920-07-11	1920-07-11	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 76; The_Boston_Globe_1920_07_11_76.jpg
+bg1920-07-18	1920-07-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 86; The_Boston_Globe_1920_07_18_86.jpg
+bg1920-07-25	1920-07-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 73; The_Boston_Globe_1920_07_25_73.jpg
+bg1920-08-01	1920-08-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 78; The_Boston_Globe_1920_08_01_78.jpg
+bg1920-08-08	1920-08-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 77; The_Boston_Globe_1920_08_08_77.jpg
+bg1920-08-15	1920-08-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 73; The_Boston_Globe_1920_08_15_73.jpg
+bg1920-08-22	1920-08-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 80; The_Boston_Globe_1920_08_22_80.jpg
+bg1920-08-29	1920-08-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 75; The_Boston_Globe_1920_08_29_75.jpg
+bg1920-09-05	1920-09-05	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 69; The_Boston_Globe_1920_09_05_69.jpg
+bg1920-09-12	1920-09-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 82; The_Boston_Globe_1920_09_12_82.jpg
+bg1920-09-19	1920-09-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1920_09_19_88.jpg
+bg1920-09-26	1920-09-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 76; The_Boston_Globe_1920_09_26_76.jpg
+bg1920-10-03	1920-10-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 92; The_Boston_Globe_1920_10_03_92.jpg
+bg1920-10-10	1920-10-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 84; The_Boston_Globe_1920_10_10_84.jpg
+bg1920-10-17	1920-10-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1920_10_17_88.jpg
+bg1920-10-24	1920-10-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 81; The_Boston_Globe_1920_10_24_81.jpg
+bg1920-10-31	1920-10-31	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 84; The_Boston_Globe_1920_10_31_84.jpg
+bg1920-11-07	1920-11-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 81; The_Boston_Globe_1920_11_07_81.jpg
+bg1920-11-14	1920-11-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 89; The_Boston_Globe_1920_11_14_89.jpg
+bg1920-11-21	1920-11-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 84; The_Boston_Globe_1920_11_21_84.jpg
+bg1920-11-28	1920-11-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 75; The_Boston_Globe_1920_11_28_75.jpg
+bg1920-12-05	1920-12-05	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 7; The_Boston_Globe_1920_12_05_77.jpg
+bg1920-12-12	1920-12-12	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 7; The_Boston_Globe_1920_12_12_79.jpg
+bg1920-12-19	1920-12-19	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 2; The_Boston_Globe_1920_12_19_66.jpg
+bg1920-12-26	1920-12-26	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 5; The_Boston_Globe_1920_12_26_65.jpg
+bg1921-01-02	1921-01-02	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 10; The_Boston_Globe_1921_01_02_74.jpg
+bg1921-01-09	1921-01-09	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 13; The_Boston_Globe_1921_01_09_81.jpg
+bg1921-01-16	1921-01-16	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 10; The_Boston_Globe_1921_01_16_82.jpg
+bg1921-01-23	1921-01-23	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 2; The_Boston_Globe_1921_01_23_70.jpg
+bg1921-01-30	1921-01-30	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 3; The_Boston_Globe_1921_01_30_71.jpg
+bg1921-02-06	1921-02-06	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 14; The_Boston_Globe_1921_02_06_78.jpg
+bg1921-02-13	1921-02-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_02_13_71.jpg
+bg1921-02-20	1921-02-20	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 14; The_Boston_Globe_1921_02_20_78.jpg
+bg1921-02-27	1921-02-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 6; The_Boston_Globe_1921_02_27_66.jpg
+bg1921-03-06	1921-03-06	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 14; The_Boston_Globe_1921_03_06_82.jpg
+bg1921-03-13	1921-03-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1921_03_13_100.jpg
+bg1921-03-20	1921-03-20	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 4; The_Boston_Globe_1921_03_20_80.jpg
+bg1921-03-27	1921-03-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 14; The_Boston_Globe_1921_03_27_92.jpg
+bg1921-04-03	1921-04-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_04_03_83.jpg
+bg1921-04-10	1921-04-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_04_10_83.jpg
+bg1921-04-17	1921-04-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1921_04_17_86.jpg
+bg1921-04-24	1921-04-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 14; The_Boston_Globe_1921_04_24_88.jpg
+bg1921-05-01	1921-05-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1921_05_01_89.jpg
+bg1921-05-08	1921-05-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 2; The_Boston_Globe_1921_05_08_76.jpg
+bg1921-05-15	1921-05-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1921_05_15_86.jpg
+bg1921-05-22	1921-05-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1921_05_22_88.jpg
+bg1921-05-29	1921-05-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1921_05_29_85.jpg
+bg1921-06-05	1921-06-05	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_06_05_87.jpg
+bg1921-06-12	1921-06-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_06_12_87.jpg
+bg1921-06-19	1921-06-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1921_06_19_90.jpg
+bg1921-06-26	1921-06-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1921_06_26_91.jpg
+bg1921-07-03	1921-07-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_07_03_71.jpg
+bg1921-07-10	1921-07-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 6; The_Boston_Globe_1921_07_10_70.jpg
+bg1921-07-17	1921-07-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1921_07_17_69.jpg
+bg1921-07-24	1921-07-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 10; The_Boston_Globe_1921_07_24_74.jpg
+bg1921-07-31	1921-07-31	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 14; The_Boston_Globe_1921_07_31_77.jpg
+bg1921-08-07	1921-08-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1921_08_07_81.jpg
+bg1921-08-14	1921-08-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 10; The_Boston_Globe_1921_08_14_74.jpg
+bg1921-08-21	1921-08-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 11; The_Boston_Globe_1921_08_21_81.jpg
+bg1921-08-28	1921-08-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_08_28_81.jpg
+bg1921-09-04	1921-09-04	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 3; The_Boston_Globe_1921_09_04_67.jpg
+bg1921-09-11	1921-09-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1921_09_11_77.jpg
+bg1921-09-18	1921-09-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 10; The_Boston_Globe_1921_09_18_83.jpg
+bg1921-09-25	1921-09-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 9; The_Boston_Globe_1921_09_25_81.jpg
+bg1921-10-02	1921-10-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_10_02_81.jpg
+bg1921-10-09	1921-10-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1921_10_09_84.jpg
+bg1921-10-16	1921-10-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 9; The_Boston_Globe_1921_10_16_87.jpg
+bg1921-10-23	1921-10-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1921_10_23_91.jpg
+bg1921-10-30	1921-10-30	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1921_10_30_91.jpg
+bg1921-11-06	1921-11-06	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_11_06_81.jpg
+bg1921-11-13	1921-11-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 7; The_Boston_Globe_1921_11_13_79.jpg
+bg1921-11-20	1921-11-20	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 78; The_Boston_Globe_1921_11_20_78.jpg
+bg1921-11-27	1921-11-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 72; The_Boston_Globe_1921_11_27_72.jpg
+bg1921-12-04	1921-12-04	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1921_12_04_83.jpg
+bg1921-12-11	1921-12-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 81; The_Boston_Globe_1921_12_11_81.jpg
+bg1921-12-18	1921-12-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 79; The_Boston_Globe_1921_12_18_79.jpg
+bg1921-12-25	1921-12-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1921_12_25_83.jpg
+bg1922-01-01	1922-01-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 71; The_Boston_Globe_1922_01_01_71.jpg
+bg1922-01-08	1922-01-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 79; The_Boston_Globe_1922_01_08_79.jpg
+bg1922-01-15	1922-01-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 75; The_Boston_Globe_1922_01_15_75.jpg
+bg1922-01-22	1922-01-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 75; The_Boston_Globe_1922_01_22_75.jpg
+bg1922-01-29	1922-01-29	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 14; The_Boston_Globe_1922_01_29_88.jpg
+bg1922-02-05	1922-02-05	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 3; The_Boston_Globe_1922_02_05_71.jpg
+bg1922-02-12	1922-02-12	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 11; The_Boston_Globe_1922_02_12_79.jpg
+bg1922-02-19	1922-02-19	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 13; The_Boston_Globe_1922_02_19_81.jpg
+bg1922-02-26	1922-02-26	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 6; The_Boston_Globe_1922_02_26_74.jpg
+bg1922-03-05	1922-03-05	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 2; The_Boston_Globe_1922_03_05_72.jpg
+bg1922-03-12	1922-03-12	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 8; The_Boston_Globe_1922_03_12_96.jpg
+bg1922-03-19	1922-03-19	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 9; The_Boston_Globe_1922_03_19_87.jpg
+bg1922-03-26	1922-03-26	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 9; The_Boston_Globe_1922_03_26_87.jpg
+bg1922-04-02	1922-04-02	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 12; The_Boston_Globe_1922_04_02_94.jpg
+bg1922-04-09	1922-04-09	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 7; The_Boston_Globe_1922_04_09_91.jpg
+bg1922-04-16	1922-04-16	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 10; The_Boston_Globe_1922_04_16_86.jpg
+bg1922-04-23	1922-04-23	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 13; The_Boston_Globe_1922_04_23_87.jpg
+bg1922-04-30	1922-04-30	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 7; The_Boston_Globe_1922_04_30_85.jpg
+bg1922-05-07	1922-05-07	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 9; The_Boston_Globe_1922_05_07_85.jpg
+bg1922-05-14	1922-05-14	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 8; The_Boston_Globe_1922_05_14_84.jpg
+bg1922-05-21	1922-05-21	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 12; The_Boston_Globe_1922_05_21_88.jpg
+bg1922-05-28	1922-05-28	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 2; The_Boston_Globe_1922_05_28_72.jpg
+bg1922-06-04	1922-06-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 4; The_Boston_Globe_1922_06_04_86.jpg
+bg1922-06-11	1922-06-11	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page 12; The_Boston_Globe_1922_06_11_94.jpg
+bg1922-06-18	1922-06-18	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1922_06_18_83.jpg
+bg1922-06-25	1922-06-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 80; The_Boston_Globe_1922_06_25_80.jpg
+bg1922-07-02	1922-07-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 66; The_Boston_Globe_1922_07_02_66.jpg
+bg1922-07-09	1922-07-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 76; The_Boston_Globe_1922_07_09_76.jpg
+bg1922-07-16	1922-07-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 73; The_Boston_Globe_1922_07_16_73.jpg
+bg1922-07-23	1922-07-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 68; The_Boston_Globe_1922_07_23_68.jpg
+bg1922-07-30	1922-07-30	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 81; The_Boston_Globe_1922_07_30_81.jpg
+bg1922-08-06	1922-08-06	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1922_08_06_88.jpg
+bg1922-08-13	1922-08-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1922_08_13_88.jpg
+bg1922-08-20	1922-08-20	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 82; The_Boston_Globe_1922_08_20_82.jpg
+bg1922-08-27	1922-08-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1922_08_27_81.jpg
+bg1922-09-03	1922-09-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1922_09_03_69.jpg
+bg1922-09-10	1922-09-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1922_09_10_77.jpg
+bg1922-09-17	1922-09-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 9; The_Boston_Globe_1922_09_17_83.jpg
+bg1922-09-24	1922-09-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 9; The_Boston_Globe_1922_09_24_81.jpg
+bg1922-10-01	1922-10-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 4; The_Boston_Globe_1922_10_01_78.jpg
+bg1922-10-08	1922-10-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 4; The_Boston_Globe_1922_10_08_78.jpg
+bg1922-10-15	1922-10-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 14; The_Boston_Globe_1922_10_15_90.jpg
+bg1922-10-22	1922-10-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 5; The_Boston_Globe_1922_10_22_87.jpg
+bg1922-10-29	1922-10-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1922_10_29_94.jpg
+bg1922-11-05	1922-11-05	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1922_11_05_88.jpg
+bg1922-11-12	1922-11-12	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1922_11_12_88.jpg
+bg1922-11-19	1922-11-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 81; The_Boston_Globe_1922_11_19_81.jpg
+bg1922-11-26	1922-11-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 80; The_Boston_Globe_1922_11_26_80.jpg
+bg1922-12-03	1922-12-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 84; The_Boston_Globe_1922_12_03_84.jpg
+bg1922-12-10	1922-12-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 82; The_Boston_Globe_1922_12_10_82.jpg
+bg1922-12-17	1922-12-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 79; The_Boston_Globe_1922_12_17_79.jpg
+bg1922-12-24	1922-12-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 76; The_Boston_Globe_1922_12_24_76.jpg
+bg1922-12-31	1922-12-31	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 71; The_Boston_Globe_1922_12_31_71.jpg
+bg1923-01-07	1923-01-07	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1923_01_07_83.jpg
+bg1923-01-14	1923-01-14	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 19, Sunday Globe Magazine; The_Boston_Globe_1923_01_14_90.jpg
+bg1923-01-21	1923-01-21	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 10, Sunday Globe Magazine; The_Boston_Globe_1923_01_21_80.jpg
+bg1923-01-28	1923-01-28	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 19, Sunday Globe Magazine; The_Boston_Globe_1923_01_28_89.jpg
+bg1923-02-04	1923-02-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 9, Sunday Globe Magazine; The_Boston_Globe_1923_02_04_79.jpg
+bg1923-02-11	1923-02-11	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 7, Sunday Globe Magazine; The_Boston_Globe_1923_02_11_77.jpg
+bg1923-02-18	1923-02-18	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 6, Sunday Globe Magazine; The_Boston_Globe_1923_02_18_70.jpg
+bg1923-02-25	1923-02-25	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 8, Sunday Globe Magazine; The_Boston_Globe_1923_02_25_72.jpg
+bg1923-03-04	1923-03-04	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 7, Sunday Globe Magazine; The_Boston_Globe_1923_03_04_63.jpg
+bg1923-03-11	1923-03-11	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 7, Sunday Globe Magazine; The_Boston_Globe_1923_03_11_103.jpg
+bg1923-03-18	1923-03-18	sunday		ready	CROSS-WORD PUZZLE				newspapers.com print	page Page 6, Sunday Globe Magazine; The_Boston_Globe_1923_03_18_78.jpg
+bg1923-03-25	1923-03-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 86; The_Boston_Globe_1923_03_25_86.jpg
+bg1923-04-01	1923-04-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 86; The_Boston_Globe_1923_04_01_86.jpg
+bg1923-04-08	1923-04-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 97; The_Boston_Globe_1923_04_08_97.jpg
+bg1923-04-15	1923-04-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 94; The_Boston_Globe_1923_04_15_94.jpg
+bg1923-04-22	1923-04-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 111; The_Boston_Globe_1923_04_22_111.jpg
+bg1923-04-29	1923-04-29	sunday		ready	Cross-Word Puzzle	Madeleine R. Ingalls, 28 Pleasant st., Marblehead, Mass. (printed after the horizontal clue list)			newspapers.com print	page 100; The_Boston_Globe_1923_04_29_100.jpg
+bg1923-05-06	1923-05-06	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 100; The_Boston_Globe_1923_05_06_100.jpg
+bg1923-05-13	1923-05-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 99; The_Boston_Globe_1923_05_13_99.jpg
+bg1923-05-20	1923-05-20	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 105; The_Boston_Globe_1923_05_20_105.jpg
+bg1923-05-26	1923-05-26	saturday-1923		ready	CROSS-WORD PUZZLE				newspapers.com print	page 3; The_Boston_Globe_1923_05_26_3.jpg
+bg1923-05-27	1923-05-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 105; The_Boston_Globe_1923_05_27_105.jpg
+bg1923-06-02	1923-06-02	saturday-1923		ready	CROSS WORD PUZZLE				newspapers.com print	page 5; The_Boston_Globe_1923_06_02_5.jpg
+bg1923-06-03	1923-06-03	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 96; The_Boston_Globe_1923_06_03_96.jpg
+bg1923-06-09	1923-06-09	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 4; The_Boston_Globe_1923_06_09_4.jpg
+bg1923-06-10	1923-06-10	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 101; The_Boston_Globe_1923_06_10_101.jpg
+bg1923-06-16	1923-06-16	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1923_06_16_13.jpg
+bg1923-06-17	1923-06-17	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 80; The_Boston_Globe_1923_06_17_80.jpg
+bg1923-06-23	1923-06-23	saturday-1923		ready	THE GLOBE'S SATURDAY CROSS WORD PUZZLE				newspapers.com print	page 15; The_Boston_Globe_1923_06_23_15.jpg
+bg1923-06-24	1923-06-24	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 92; The_Boston_Globe_1923_06_24_92.jpg
+bg1923-06-30	1923-06-30	saturday-1923		ready	THE GLOBE'S SATURDAY CROSS WORD PUZZLE				newspapers.com print	page 4; The_Boston_Globe_1923_06_30_4.jpg
+bg1923-07-01	1923-07-01	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 102; The_Boston_Globe_1923_07_01_102.jpg
+bg1923-07-07	1923-07-07	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 3; The_Boston_Globe_1923_07_07_3.jpg
+bg1923-07-08	1923-07-08	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 88; The_Boston_Globe_1923_07_08_88.jpg
+bg1923-07-14	1923-07-14	saturday-1923		ready	THE GLOBE'S SATURDAY CROSS WORD PUZZLE				newspapers.com print	page 11; The_Boston_Globe_1923_07_14_11.jpg
+bg1923-07-15	1923-07-15	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 91; The_Boston_Globe_1923_07_15_91.jpg
+bg1923-07-21	1923-07-21	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 12; The_Boston_Globe_1923_07_21_12.jpg
+bg1923-07-22	1923-07-22	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 86; The_Boston_Globe_1923_07_22_86.jpg
+bg1923-07-28	1923-07-28	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 4; The_Boston_Globe_1923_07_28_4.jpg
+bg1923-07-29	1923-07-29	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 84; The_Boston_Globe_1923_07_29_84.jpg
+bg1923-08-04	1923-08-04	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 6; The_Boston_Globe_1923_08_04_6.jpg
+bg1923-08-05	1923-08-05	sunday		ready	Cross-Word Puzzle	J. T. DELANEY			newspapers.com print	page 87; The_Boston_Globe_1923_08_05_87.jpg
+bg1923-08-11	1923-08-11	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 7; The_Boston_Globe_1923_08_11_7.jpg
+bg1923-08-12	1923-08-12	sunday		ready	Cross-Word Puzzle	R. Booth			newspapers.com print	page 90; The_Boston_Globe_1923_08_12_90.jpg
+bg1923-08-18	1923-08-18	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 2; The_Boston_Globe_1923_08_18_2.jpg
+bg1923-08-19	1923-08-19	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 78; The_Boston_Globe_1923_08_19_78.jpg
+bg1923-08-25	1923-08-25	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 4; The_Boston_Globe_1923_08_25_4.jpg
+bg1923-08-26	1923-08-26	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 92; The_Boston_Globe_1923_08_26_92.jpg
+bg1923-09-01	1923-09-01	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 11; The_Boston_Globe_1923_09_01_11.jpg
+bg1923-09-02	1923-09-02	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 82; The_Boston_Globe_1923_09_02_82.jpg
+bg1923-09-08	1923-09-08	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 15; The_Boston_Globe_1923_09_08_15.jpg
+bg1923-09-09	1923-09-09	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 96; The_Boston_Globe_1923_09_09_96.jpg
+bg1923-09-15	1923-09-15	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 15; The_Boston_Globe_1923_09_15_15.jpg
+bg1923-09-16	1923-09-16	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 110; The_Boston_Globe_1923_09_16_110.jpg
+bg1923-09-22	1923-09-22	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	S. L. FROELICH			newspapers.com print	page Page 15; The_Boston_Globe_1923_09_22_15.jpg
+bg1923-09-23	1923-09-23	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 103; The_Boston_Globe_1923_09_23_103.jpg
+bg1923-09-29	1923-09-29	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 13; The_Boston_Globe_1923_09_29_13.jpg
+bg1923-09-30	1923-09-30	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 105; The_Boston_Globe_1923_09_30_105.jpg
+bg1923-10-06	1923-10-06	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page Page 15; The_Boston_Globe_1923_10_06_15.jpg
+bg1923-10-07	1923-10-07	sunday		ready	Cross-Word Puzzle	FLORENCE FARWELL			newspapers.com print	page 105; The_Boston_Globe_1923_10_07_105.jpg
+bg1923-10-13	1923-10-13	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	CHET BENT, Peabody, Mass.			newspapers.com print	page 15; The_Boston_Globe_1923_10_13_15.jpg
+bg1923-10-14	1923-10-14	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 108; The_Boston_Globe_1923_10_14_108.jpg
+bg1923-10-20	1923-10-20	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 15; The_Boston_Globe_1923_10_20_15.jpg
+bg1923-10-21	1923-10-21	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 101; The_Boston_Globe_1923_10_21_101.jpg
+bg1923-10-27	1923-10-27	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 15; The_Boston_Globe_1923_10_27_15.jpg
+bg1923-10-28	1923-10-28	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 91; The_Boston_Globe_1923_10_28_91.jpg
+bg1923-11-03	1923-11-03	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 15; The_Boston_Globe_1923_11_03_15.jpg
+bg1923-11-04	1923-11-04	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 90; The_Boston_Globe_1923_11_04_90.jpg
+bg1923-11-10	1923-11-10	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 15; The_Boston_Globe_1923_11_10_15.jpg
+bg1923-11-11	1923-11-11	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 99; The_Boston_Globe_1923_11_11_99.jpg
+bg1923-11-17	1923-11-17	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	FRANCIS T. LEAHY JR, Brookline			newspapers.com print	page 15; The_Boston_Globe_1923_11_17_15.jpg
+bg1923-11-18	1923-11-18	sunday		ready	Cross-Word Puzzle	FRANK H. MOORE, Boston			newspapers.com print	page 87; The_Boston_Globe_1923_11_18_87.jpg
+bg1923-11-24	1923-11-24	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 15; The_Boston_Globe_1923_11_24_15.jpg
+bg1923-11-25	1923-11-25	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 97; The_Boston_Globe_1923_11_25_97.jpg
+bg1923-12-01	1923-12-01	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 8; The_Boston_Globe_1923_12_01_8.jpg
+bg1923-12-02	1923-12-02	sunday		ready	Cross-Word Puzzle	GEORGE A. DERBY, HUDSON			newspapers.com print	page 95; The_Boston_Globe_1923_12_02_95.jpg
+bg1923-12-08	1923-12-08	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	CHARLES L. MERRITT / WHITMAN			newspapers.com print	page 15; The_Boston_Globe_1923_12_08_15.jpg
+bg1923-12-09	1923-12-09	sunday		ready	Cross-Word Puzzle	J. A. DeLOREY, Everett			newspapers.com print	page 89; The_Boston_Globe_1923_12_09_89.jpg
+bg1923-12-15	1923-12-15	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	HARRIS G. HALE / Brookline			newspapers.com print	page 15; The_Boston_Globe_1923_12_15_15.jpg
+bg1923-12-16	1923-12-16	sunday		ready	Cross-Word Puzzle	F. H. MOORE, Boston			newspapers.com print	page 87; The_Boston_Globe_1923_12_16_87.jpg
+bg1923-12-22	1923-12-22	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1923_12_22_13.jpg
+bg1923-12-23	1923-12-23	sunday		ready	Cross-Word Puzzle	Grace Bagley, Peabody			newspapers.com print	page 81; The_Boston_Globe_1923_12_23_81.jpg
+bg1923-12-29	1923-12-29	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	S. E. HALE, BOSTON			newspapers.com print	page 13; The_Boston_Globe_1923_12_29_13.jpg
+bg1923-12-30	1923-12-30	sunday		ready	Cross-Word Puzzle	WILLIAM C. CUNNINGHAM, South Boston			newspapers.com print	page 79; The_Boston_Globe_1923_12_30_79.jpg
+bg1924-01-05	1924-01-05	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	H. M. L.			newspapers.com print	page 13; The_Boston_Globe_1924_01_05_13.jpg
+bg1924-01-06	1924-01-06	sunday		ready	Cross-Word Puzzle	J. H. PATTEE, Boston			newspapers.com print	page 76; The_Boston_Globe_1924_01_06_76.jpg
+bg1924-01-12	1924-01-12	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	J. R. ORMSBY / Boston			newspapers.com print	page 15; The_Boston_Globe_1924_01_12_15.jpg
+bg1924-01-13	1924-01-13	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 86; The_Boston_Globe_1924_01_13_86.jpg
+bg1924-01-19	1924-01-19	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	LAURENCE P. DODGE / Boston			newspapers.com print	page 13; The_Boston_Globe_1924_01_19_13.jpg
+bg1924-01-20	1924-01-20	sunday		ready	Cross-Word Puzzle	D. R. COMSTOCK, Portsmouth, N.H.			newspapers.com print	page 83; The_Boston_Globe_1924_01_20_83.jpg
+bg1924-01-26	1924-01-26	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle				newspapers.com print	page 13; The_Boston_Globe_1924_01_26_13.jpg
+bg1924-01-27	1924-01-27	sunday		ready	Cross-Word Puzzle				newspapers.com print	page 83; The_Boston_Globe_1924_01_27_83.jpg
+bg1924-02-02	1924-02-02	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	EDWARD MELLUS, Newton.			newspapers.com print	page 13; The_Boston_Globe_1924_02_02_13.jpg
+bg1924-02-03	1924-02-03	sunday		ready	Cross-Word Puzzle	S. L. Ferguson, Peabody			newspapers.com print	page 99; The_Boston_Globe_1924_02_03_99.jpg
+bg1924-02-06	1924-02-06	wednesday-1924		ready	Cross Word Puzzle				newspapers.com print	page Page 15 (masthead Wednesday, February 6, 1924); The_Boston_Globe_1924_02_06_15.jpg
+bg1924-02-09	1924-02-09	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	M. F. FERGUSON / Everett			newspapers.com print	page 4; The_Boston_Globe_1924_02_09_4.jpg
+bg1924-02-10	1924-02-10	sunday		ready	Cross-Word Puzzle	IRENE B. FRENCH, Everett			newspapers.com print	page 87; The_Boston_Globe_1924_02_10_87.jpg
+bg1924-02-13	1924-02-13	wednesday-1924		ready	Cross Word Puzzle				newspapers.com print	page Page 20 (masthead Wednesday, February 13, 1924); The_Boston_Globe_1924_02_13_20.jpg
+bg1924-02-16	1924-02-16	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	"OLD-TIMER"			newspapers.com print	page 5; The_Boston_Globe_1924_02_16_5.jpg
+bg1924-02-17	1924-02-17	sunday		ready	Cross-Word Puzzle	RUTH F. THOMAS (Aged 13), Plymouth, Mass.			newspapers.com print	page 79; The_Boston_Globe_1924_02_17_79.jpg
+bg1924-02-20	1924-02-20	wednesday-1924		ready	Cross Word Puzzle				newspapers.com print	page Page 25 (masthead Wednesday, February 20, 1924); The_Boston_Globe_1924_02_20_25.jpg
+bg1924-02-23	1924-02-23	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	G. E. T. / Berwick, Me			newspapers.com print	page 13; The_Boston_Globe_1924_02_23_13.jpg
+bg1924-02-24	1924-02-24	sunday		ready	Cross-Word Puzzle	A. J. H., Medford Hillside			newspapers.com print	page 74; The_Boston_Globe_1924_02_24_74.jpg
+bg1924-02-27	1924-02-27	wednesday-1924		ready	Cross Word Puzzle				newspapers.com print	page Page 20 (masthead Wednesday, February 27, 1924); The_Boston_Globe_1924_02_27_20.jpg
+bg1924-03-01	1924-03-01	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	F. E. J. Falmouth, Mass.			newspapers.com print	page Page 2 (masthead THE BOSTON GLOBE-SATURDAY, MARCH 1, 1924); The_Boston_Globe_1924_03_01_2.jpg
+bg1924-03-02	1924-03-02	sunday		ready	Cross-Word Puzzle	R. R. TATNALL, Wayland			newspapers.com print	page Page Eight; masthead March 2, 1924; The_Boston_Globe_1924_03_02_80.jpg
+bg1924-03-05	1924-03-05	wednesday-1924		ready	Cross Word Puzzle	MRS C. H. WENTWORTH, Peabody			newspapers.com print	page Page 18 (masthead Wednesday, March 5, 1924); The_Boston_Globe_1924_03_05_18.jpg
+bg1924-03-08	1924-03-08	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	MIRON C. HAM (16 Years Old) Unity, Me.			newspapers.com print	page Page 17 (masthead SATURDAY, MARCH 8, 1924); The_Boston_Globe_1924_03_08_17.jpg
+bg1924-03-09	1924-03-09	sunday		ready	Cross-Word Puzzle	E. L. FRENCH, Brockton			newspapers.com print	page Page Seventeen; masthead March 9, 1924; The_Boston_Globe_1924_03_09_125.jpg
+bg1924-03-12	1924-03-12	wednesday-1924		ready	Cross Word Puzzle	S. E. HALE, Boston.			newspapers.com print	page Page 17 (masthead Wednesday, March 12, 1924); The_Boston_Globe_1924_03_12_17.jpg
+bg1924-03-15	1924-03-15	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	J. H. PATTEE Boston			newspapers.com print	page Page 13 (masthead SATURDAY, MARCH 15, 1924); The_Boston_Globe_1924_03_15_13.jpg
+bg1924-03-16	1924-03-16	sunday		ready	Cross-Word Puzzle	MRS HELEN MARSTON, Merrimac			newspapers.com print	page Page Seven; masthead March 16, 1924; The_Boston_Globe_1924_03_16_83.jpg
+bg1924-03-19	1924-03-19	wednesday-1924		ready	Cross Word Puzzle				newspapers.com print	page Page 22 (masthead Wednesday, March 19, 1924); The_Boston_Globe_1924_03_19_22.jpg
+bg1924-03-22	1924-03-22	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	B. F. W. Cambridge			newspapers.com print	page Page 15 (masthead SATURDAY, MARCH 22, 1924); The_Boston_Globe_1924_03_22_15.jpg
+bg1924-03-23	1924-03-23	sunday		ready	Cross-Word Puzzle	F. H. MOORE			newspapers.com print	page Page Nineteen; masthead March 23, 1924; The_Boston_Globe_1924_03_23_93.jpg
+bg1924-03-26	1924-03-26	wednesday-1924		ready	Cross Word Puzzle	LAURENCE P. DODGE, Boston			newspapers.com print	page Page 11 (masthead Wednesday, March 26, 1924); The_Boston_Globe_1924_03_26_11.jpg
+bg1924-03-29	1924-03-29	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	CHET BENT Peabody			newspapers.com print	page Page 5 (masthead SATURDAY, MARCH 29, 1924); The_Boston_Globe_1924_03_29_5.jpg
+bg1924-03-30	1924-03-30	sunday		ready	Cross-Word Puzzle	GEORGE A. DERBY, Hudson			newspapers.com print	page Page Eight; masthead March 30, 1924; The_Boston_Globe_1924_03_30_90.jpg
+bg1924-04-02	1924-04-02	wednesday-1924		ready	Cross Word Puzzle				newspapers.com print	page Page 11 (masthead Wednesday, April 2, 1924); The_Boston_Globe_1924_04_02_11.jpg
+bg1924-04-05	1924-04-05	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	F. H. Boston			newspapers.com print	page Page 15 (masthead SATURDAY, APRIL 5, 1924); The_Boston_Globe_1924_04_05_15.jpg
+bg1924-04-06	1924-04-06	sunday		ready	Cross-Word Puzzle	G. H. H., Dorchester			newspapers.com print	page Page Nine; masthead April 6, 1924; The_Boston_Globe_1924_04_06_103.jpg
+bg1924-04-09	1924-04-09	wednesday-1924		ready	Cross Word Puzzle	MRS S. F. H., Cliftondale			newspapers.com print	page Page 10 (masthead Wednesday, April 9, 1924); The_Boston_Globe_1924_04_09_10.jpg
+bg1924-04-12	1924-04-12	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	S. D. PALMER Wayland			newspapers.com print	page Page 9 (masthead SATURDAY, APRIL 12, 1924); The_Boston_Globe_1924_04_12_9.jpg
+bg1924-04-13	1924-04-13	sunday		ready	Cross-Word Puzzle	HUGH B. CAVE (13 Years Old), Brookline			newspapers.com print	page Page Nine; masthead April 13, 1924; The_Boston_Globe_1924_04_13_103.jpg
+bg1924-04-16	1924-04-16	wednesday-1924		ready	CROSS WORD PUZZLE	UNA W. HATTIN, NORTH SCITUATE			newspapers.com print	page 13; The_Boston_Globe_1924_04_16_13.jpg
+bg1924-04-19	1924-04-19	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	C. S. JOPP Boston			newspapers.com print	page Page 12 (masthead SATURDAY, APRIL 19, 1924); The_Boston_Globe_1924_04_19_12.jpg
+bg1924-04-20	1924-04-20	sunday		ready	Cross-Word Puzzle	MR AND MRS JOHN GROSS, Boston			newspapers.com print	page Page Nineteen; masthead April 20, 1924; The_Boston_Globe_1924_04_20_117.jpg
+bg1924-04-23	1924-04-23	wednesday-1924		ready	CROSS WORD PUZZLE	MARION H. MELLUS, NEWTON			newspapers.com print	page 10; The_Boston_Globe_1924_04_23_10.jpg
+bg1924-04-26	1924-04-26	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	W. T. BROWNING Dorchester			newspapers.com print	page Page 15 (masthead SATURDAY, APRIL 26, 1924); The_Boston_Globe_1924_04_26_15.jpg
+bg1924-04-27	1924-04-27	sunday		ready	Cross-Word Puzzle	HARRIS G. HALE, Brookline			newspapers.com print	page Page Nine; masthead April 27, 1924; The_Boston_Globe_1924_04_27_107.jpg
+bg1924-04-30	1924-04-30	wednesday-1924		ready	CROSS WORD PUZZLE	"SQUEERS", MANCHESTER, N H			newspapers.com print	page 23; The_Boston_Globe_1924_04_30_23.jpg
+bg1924-05-03	1924-05-03	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	L. C. HALL Malden			newspapers.com print	page Page 15 (masthead SATURDAY, MAY 3, 1924); The_Boston_Globe_1924_05_03_15.jpg
+bg1924-05-04	1924-05-04	sunday		ready	Cross-Word Puzzle	ELIDA HIGGINS BOND, Winthrop			newspapers.com print	page Page Nineteen; masthead May 4, 1924; The_Boston_Globe_1924_05_04_111.jpg
+bg1924-05-07	1924-05-07	wednesday-1924		ready	CROSS WORD PUZZLE	DOROTHY E. DAVIS, Everett			newspapers.com print	page 22; The_Boston_Globe_1924_05_07_22.jpg
+bg1924-05-10	1924-05-10	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	WM. R. PEDERSEN / Cambridge			newspapers.com print	page 8; The_Boston_Globe_1924_05_10_8.jpg
+bg1924-05-11	1924-05-11	sunday		ready	Cross-Word Puzzle	W. H. K., Head Tide, Me.			newspapers.com print	page 98; The_Boston_Globe_1924_05_11_98.jpg
+bg1924-05-14	1924-05-14	wednesday-1924		ready	CROSS-WORD PUZZLE	HARRY J. GAMESTER, PORTSMOUTH, N H			newspapers.com print	page 26; The_Boston_Globe_1924_05_14_26.jpg
+bg1924-05-17	1924-05-17	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	E. F. WALKER / Dorchester.			newspapers.com print	page 14; The_Boston_Globe_1924_05_17_14.jpg
+bg1924-05-18	1924-05-18	sunday		ready	Cross-Word Puzzle	S. E. HALE, Boston.			newspapers.com print	page 105; The_Boston_Globe_1924_05_18_105.jpg
+bg1924-05-21	1924-05-21	wednesday-1924		ready	CROSS WORD PUZZLE				newspapers.com print	page 15; The_Boston_Globe_1924_05_21_15.jpg
+bg1924-05-24	1924-05-24	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	HATTIE B. RICH / Rochdale			newspapers.com print	page 4; The_Boston_Globe_1924_05_24_4.jpg
+bg1924-05-25	1924-05-25	sunday		ready	Cross-Word Puzzle	E. R. M., Somerville			newspapers.com print	page 95; The_Boston_Globe_1924_05_25_95.jpg
+bg1924-05-28	1924-05-28	wednesday-1924		ready	CROSS WORD PUZZLE	ROBERT R. AMES, CASTINE, ME			newspapers.com print	page 26; The_Boston_Globe_1924_05_28_26.jpg
+bg1924-05-31	1924-05-31	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	G. E. T., / BERWICK, ME.			newspapers.com print	page 17; The_Boston_Globe_1924_05_31_17.jpg
+bg1924-06-01	1924-06-01	sunday		ready	Cross-Word Puzzle	F. H. MOORE, Boston			newspapers.com print	page 86; The_Boston_Globe_1924_06_01_86.jpg
+bg1924-06-04	1924-06-04	wednesday-1924		ready	CROSS WORD PUZZLE	MISS BOBBIE BRENNER, BOSTON			newspapers.com print	page 21; The_Boston_Globe_1924_06_04_21.jpg
+bg1924-06-07	1924-06-07	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	G. A. B. / WOLLASTON			newspapers.com print	page 4; The_Boston_Globe_1924_06_07_4.jpg
+bg1924-06-08	1924-06-08	sunday		ready	Cross-Word Puzzle	B. W. BEANSIBUR, Portsmouth, N. H. (letters smudged, possibly BEANSBUR)			newspapers.com print	page 94; The_Boston_Globe_1924_06_08_94.jpg
+bg1924-06-11	1924-06-11	wednesday-1924		ready	CROSS WORD PUZZLE	CROSS ED.			newspapers.com print	page 21; The_Boston_Globe_1924_06_11_21.jpg
+bg1924-06-14	1924-06-14	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	MRS R. E. BUCK / HOLYOKE			newspapers.com print	page 7; The_Boston_Globe_1924_06_14_7.jpg
+bg1924-06-15	1924-06-15	sunday		ready	Cross-Word Puzzle	EDGAR L. CORNIER, Gardner			newspapers.com print	page 88; The_Boston_Globe_1924_06_15_88.jpg
+bg1924-06-18	1924-06-18	wednesday-1924		ready	CROSS WORD PUZZLE	B. W. BERKELEY, BOSTON			newspapers.com print	page 21; The_Boston_Globe_1924_06_18_21.jpg
+bg1924-06-21	1924-06-21	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	ELEANOR D. RUTHERFORD / ARLINGTON			newspapers.com print	page 5; The_Boston_Globe_1924_06_21_5.jpg
+bg1924-06-22	1924-06-22	sunday		ready	Cross-Word Puzzle	L. P. N., West Newton			newspapers.com print	page 93; The_Boston_Globe_1924_06_22_93.jpg
+bg1924-06-25	1924-06-25	wednesday-1924		ready	CROSS WORD PUZZLE	THE PUZZLE POTE			newspapers.com print	page Page 21 (masthead: The Boston Globe, Wednesday, June 25, 1924); no section name; The_Boston_Globe_1924_06_25_21.jpg
+bg1924-06-28	1924-06-28	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	J. M. C. / CHELSEA, VT.			newspapers.com print	page 7; The_Boston_Globe_1924_06_28_7.jpg
+bg1924-06-29	1924-06-29	sunday		ready	Cross-Word Puzzle	M. F. FERGUSON, Everett			newspapers.com print	page 96; The_Boston_Globe_1924_06_29_96.jpg
+bg1924-07-02	1924-07-02	wednesday-1924		ready	CROSS WORD PUZZLE	M. M. R. / Belmont			newspapers.com print	page Page 20 (masthead: Wednesday, July 2, 1924); no section name; The_Boston_Globe_1924_07_02_20.jpg
+bg1924-07-05	1924-07-05	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	B. of B.			newspapers.com print	page 14; The_Boston_Globe_1924_07_05_14.jpg
+bg1924-07-06	1924-07-06	sunday		ready	Cross-Word Puzzle	A. J. HUNT			newspapers.com print	page 74; The_Boston_Globe_1924_07_06_74.jpg
+bg1924-07-09	1924-07-09	wednesday-1924		ready	CROSS WORD PUZZLE	CROSS ED.			newspapers.com print	page Page 17 (masthead: Wednesday, July 9, 1924); no section name; page mostly comic strips; The_Boston_Globe_1924_07_09_17.jpg
+bg1924-07-12	1924-07-12	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	"NO NAME" / Braintree			newspapers.com print	page 12; The_Boston_Globe_1924_07_12_12.jpg
+bg1924-07-13	1924-07-13	sunday		ready	CROSS-WORD PUZZLE	A. H. Gage, Lewiston, Me			newspapers.com print	page 94; The_Boston_Globe_1924_07_13_94.jpg
+bg1924-07-16	1924-07-16	wednesday-1924		ready	CROSS WORD PUZZLE	W. S. MOORE / DORCHESTER			newspapers.com print	page 17; The_Boston_Globe_1924_07_16_17.jpg
+bg1924-07-19	1924-07-19	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	WILLIAM E. KNOLLIN, Malden			newspapers.com print	page 13; The_Boston_Globe_1924_07_19_13.jpg
+bg1924-07-20	1924-07-20	sunday		ready	CROSS-WORD PUZZLE	E. L., Waltham			newspapers.com print	page 86; The_Boston_Globe_1924_07_20_86.jpg
+bg1924-07-23	1924-07-23	wednesday-1924		ready	CROSS-WORD PUZZLE (hyphenated)	KENNETH S. OWEN / Swampscott			newspapers.com print	page 20; The_Boston_Globe_1924_07_23_20.jpg
+bg1924-07-26	1924-07-26	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	W. H. K., Head Tide, ME			newspapers.com print	page 12; The_Boston_Globe_1924_07_26_12.jpg
+bg1924-07-27	1924-07-27	sunday		ready	CROSS-WORD PUZZLE	Brookline (town only; no name line printed)			newspapers.com print	page 87; The_Boston_Globe_1924_07_27_87.jpg
+bg1924-07-30	1924-07-30	wednesday-1924		ready	CROSS WORD PUZZLE	(Made for Jay of Woodfords, Me.)  [no By-line]			newspapers.com print	page 20; The_Boston_Globe_1924_07_30_20.jpg
+bg1924-08-02	1924-08-02	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	H. P. W., Buckland			newspapers.com print	page 3; The_Boston_Globe_1924_08_02_3.jpg
+bg1924-08-03	1924-08-03	sunday		ready	CROSS-WORD PUZZLE	J. H. Pattee, Boston			newspapers.com print	page 87; The_Boston_Globe_1924_08_03_87.jpg
+bg1924-08-06	1924-08-06	wednesday-1924		ready	CROSS WORD PUZZLE	GEORGE A. DERBY, Hudson			newspapers.com print	page 15; The_Boston_Globe_1924_08_06_15.jpg
+bg1924-08-09	1924-08-09	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	G. E. ANDREWS, Norton			newspapers.com print	page 12; The_Boston_Globe_1924_08_09_12.jpg
+bg1924-08-10	1924-08-10	sunday		ready	CROSS-WORD PUZZLE	Linda Freeman, Portland, Me. (With parental assistance)			newspapers.com print	page 84; The_Boston_Globe_1924_08_10_84.jpg
+bg1924-08-13	1924-08-13	wednesday-1924		ready	CROSS WORD PUZZLE	UNA W. HATTIN, North Scituate			newspapers.com print	page 18; The_Boston_Globe_1924_08_13_18.jpg
+bg1924-08-16	1924-08-16	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	YEBO, Dorchester			newspapers.com print	page 12; The_Boston_Globe_1924_08_16_12.jpg
+bg1924-08-17	1924-08-17	sunday		ready	CROSS-WORD PUZZLE	B. F. W., Cambridge			newspapers.com print	page 88; The_Boston_Globe_1924_08_17_88.jpg
+bg1924-08-20	1924-08-20	wednesday-1924		ready	CROSS WORD PUZZLE	H. P. BELKNAP, BOSTON			newspapers.com print	page 15; The_Boston_Globe_1924_08_20_15.jpg
+bg1924-08-23	1924-08-23	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	MR AND MRS PHIL OLOGY, Boston			newspapers.com print	page 12; The_Boston_Globe_1924_08_23_12.jpg
+bg1924-08-24	1924-08-24	sunday		ready	CROSS-WORD PUZZLE	"LUPIN", Rockland, Me.			newspapers.com print	page 77; The_Boston_Globe_1924_08_24_77.jpg
+bg1924-08-27	1924-08-27	wednesday-1924		ready	CROSS WORD PUZZLE	MABEL D. PAINE, MEDFORD			newspapers.com print	page 18; The_Boston_Globe_1924_08_27_18.jpg
+bg1924-08-30	1924-08-30	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	JAMES H. BARTLETT Jr, Quincy			newspapers.com print	page 12; The_Boston_Globe_1924_08_30_12.jpg
+bg1924-08-31	1924-08-31	sunday		ready	CROSS-WORD PUZZLE	L. M. P., Rockland, Mass.			newspapers.com print	page 78; The_Boston_Globe_1924_08_31_78.jpg
+bg1924-09-03	1924-09-03	wednesday-1924		ready	CROSS WORD PUZZLE	E. M. POWNALL / New York			newspapers.com print	page Page 18, THE BOSTON GLOBE-WEDNESDAY, SEPTEMBER 3, 1924; The_Boston_Globe_1924_09_03_18.jpg
+bg1924-09-06	1924-09-06	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	CLERICUS / LANCASTER, N. H.			newspapers.com print	page 14; The_Boston_Globe_1924_09_06_14.jpg
+bg1924-09-07	1924-09-07	sunday		ready	Cross-Word Puzzle	MRS HELEN MARSTON			newspapers.com print	page Page Seventeen (September 7, 1924); The_Boston_Globe_1924_09_07_93.jpg
+bg1924-09-10	1924-09-10	wednesday-1924		ready	CROSS WORD PUZZLE	A. H. GAGE / Lewiston, Me			newspapers.com print	page Page 20, THE BOSTON GLOBE-WEDNESDAY, SEPTEMBER 10, 1924; The_Boston_Globe_1924_09_10_20.jpg
+bg1924-09-13	1924-09-13	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	L. P. N. / WEST NEWTON			newspapers.com print	page 14; The_Boston_Globe_1924_09_13_14.jpg
+bg1924-09-14	1924-09-14	sunday		ready	Cross-Word Puzzle	GEORGE A. DERBY, Hudson			newspapers.com print	page Page Eight (September 14, 1924; masthead 'Page Nine' is show-through from verso); The_Boston_Globe_1924_09_14_90.jpg
+bg1924-09-17	1924-09-17	wednesday-1924		ready	CROSS WORD PUZZLE	CHARLOTTE and VIRGINIA (Shut-Ins) / BROOKLINE			newspapers.com print	page Page 17, THE BOSTON GLOBE-WEDNESDAY, SEPTEMBER 17, 1924; The_Boston_Globe_1924_09_17_17.jpg
+bg1924-09-20	1924-09-20	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	R. H. W. / WINCHENDON			newspapers.com print	page 15; The_Boston_Globe_1924_09_20_15.jpg
+bg1924-09-21	1924-09-21	sunday		ready	Cross-Word Puzzle	VENNA, East Lynn			newspapers.com print	page Page Eighteen (September 21, 1924); The_Boston_Globe_1924_09_21_102.jpg
+bg1924-09-24	1924-09-24	wednesday-1924		ready	CROSS WORD PUZZLE	MRS ERMA M. GATES / LEBANON, N H			newspapers.com print	page Page 22, THE BOSTON GLOBE-WEDNESDAY, SEPTEMBER 24, 1924; The_Boston_Globe_1924_09_24_22.jpg
+bg1924-09-27	1924-09-27	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	ELIZABETH LEAROYD / WALTHAM			newspapers.com print	page 14; The_Boston_Globe_1924_09_27_14.jpg
+bg1924-09-28	1924-09-28	sunday		ready	Cross-Word Puzzle	MR and MRS A. F. AUSTIN, BATH, ME			newspapers.com print	page Page Nineteen (September 28, 1924); The_Boston_Globe_1924_09_28_101.jpg
+bg1924-10-01	1924-10-01	wednesday-1924		ready	CROSS WORD PUZZLE	A. NEIL SMITH, MD / Dover, N H			newspapers.com print	page Page 18, THE BOSTON GLOBE-WEDNESDAY, OCTOBER 1, 1924; The_Boston_Globe_1924_10_01_18.jpg
+bg1924-10-04	1924-10-04	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	H. P. WARD / BUCKLAND			newspapers.com print	page 7; The_Boston_Globe_1924_10_04_7.jpg
+bg1924-10-05	1924-10-05	sunday		ready	Cross-Word Puzzle	HATTIE B. RICH, Rochdale.			newspapers.com print	page Page Eighteen (October 5, 1924); The_Boston_Globe_1924_10_05_106.jpg
+bg1924-10-08	1924-10-08	wednesday-1924		ready	CROSS WORD PUZZLE	MARY M. FARRAND / CONCORD, N H			newspapers.com print	page Page 20, THE BOSTON GLOBE-WEDNESDAY, OCTOBER 8, 1924; The_Boston_Globe_1924_10_08_20.jpg
+bg1924-10-11	1924-10-11	saturday-1923		ready	The Globe's Saturday Cross Word Puzzle	HARDWICKIAN / VERMONT			newspapers.com print	page 16; The_Boston_Globe_1924_10_11_16.jpg
+bg1924-10-12	1924-10-12	sunday		ready	Cross-Word Puzzle	MRS EDWARD A. HATTIN			newspapers.com print	page Page Eighteen (October 12, 1924); The_Boston_Globe_1924_10_12_100.jpg
 bg1980-01-06	1980-01-06	sunday		missing						
 bg1980-01-13	1980-01-13	sunday		missing						
 bg1980-01-20	1980-01-20	sunday		missing						
