@@ -128,27 +128,29 @@ def main() -> None:
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Crossword Puzzles in the Boston Globe</title>
+<link rel="stylesheet" href="https://everypuzzleproject.org/site.css">
 <style>
-:root {{ --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e3e0d8; --card:#ffffff; --accent:#8a1c1c;
+h1, h2 {{ font-family:inherit; font-weight:bold; line-height:inherit }} .epp-header .wrap {{ max-width:960px }}
+:root {{ --pg-bg:#fbfaf7; --fg:#1d1d1b; --pg-muted:#6b6a65; --pg-line:#e3e0d8; --card:#ffffff; --pg-accent:#8a1c1c;
   --s-in-gxd:#2f6f4f; --s-in-mr:#4f8fbf; --s-ready:#c9a227; --s-need-image:#c4572c; --s-need-answers:#9a5fb0; --s-missing:#d9d5cc; --s-not-printed:#b7b0a2; }}
-@media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#e07a6a;
+@media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#e07a6a;
   --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; --s-not-printed:#5a574f; }} }}
-:root[data-theme="dark"] {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#e07a6a;
+:root[data-theme="dark"] {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#e07a6a;
   --s-in-gxd:#5fae86; --s-in-mr:#6fa8d6; --s-ready:#d8b443; --s-need-image:#e0794f; --s-need-answers:#b98ad0; --s-missing:#3b3a36; --s-not-printed:#5a574f; }}
 * {{ box-sizing:border-box }}
-body {{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
+body {{ margin:0; background:var(--pg-bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
 main {{ max-width:960px; margin:0 auto; padding:32px 16px 64px }}
 h1 {{ font-size:2rem; margin:0 0 4px }} h2 {{ margin:40px 0 8px; font-size:1.35rem; border-bottom:2px solid var(--fg); padding-bottom:4px }}
 h3 {{ margin:24px 0 6px; font-size:1.05rem }}
-a {{ color:var(--accent) }} .muted {{ color:var(--muted) }} .lede {{ font-size:1.1rem }}
-.cta {{ background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); padding:16px 20px; margin:20px 0 }}
+a {{ color:var(--pg-accent) }} .muted {{ color:var(--pg-muted) }} .lede {{ font-size:1.1rem }}
+.cta {{ background:var(--card); border:1px solid var(--pg-line); border-left:4px solid var(--pg-accent); padding:16px 20px; margin:20px 0 }}
 .cta ol {{ margin:8px 0 0; padding-left:22px }}
 table {{ width:100%; border-collapse:collapse; font:14px/1.4 system-ui, sans-serif }}
-th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top }}
+th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--pg-line); vertical-align:top }}
 th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child, td.id {{ white-space:nowrap }}
-details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} .summary {{ font-size:15px }} summary {{ cursor:pointer }} .dates {{ margin:4px 0 8px 18px; color:var(--muted) }}
+details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} .summary {{ font-size:15px }} summary {{ cursor:pointer }} .dates {{ margin:4px 0 8px 18px; color:var(--pg-muted) }}
 .bar {{ display:flex; align-items:center; gap:8px; font:12px system-ui, sans-serif; margin:2px 0 }}
-.yr {{ width:3em; color:var(--muted) }} .n {{ width:4.5em; text-align:right; color:var(--muted) }}
+.yr {{ width:3em; color:var(--pg-muted) }} .n {{ width:4.5em; text-align:right; color:var(--pg-muted) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-missing) }}
 .seg.in-gxd, .sw.in-gxd {{ background:var(--s-in-gxd) }} .seg.in-mr, .sw.in-mr {{ background:var(--s-in-mr) }}
 .seg.ready, .sw.ready {{ background:var(--s-ready) }} .seg.need-image, .sw.need-image {{ background:var(--s-need-image) }}
@@ -159,9 +161,15 @@ details {{ font:14px/1.5 system-ui, sans-serif; margin:2px 0 }} .summary {{ font
 .pill.in-gxd {{ background:var(--s-in-gxd) }} .pill.in-mr {{ background:var(--s-in-mr) }} .pill.ready {{ background:var(--s-ready); color:#1d1d1b }}
 .pill.need-image {{ background:var(--s-need-image) }} .pill.need-answers {{ background:var(--s-need-answers) }} .pill.missing {{ background:var(--s-missing); color:var(--fg) }} .pill.not-printed {{ background:var(--s-not-printed); color:var(--fg) }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
-input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
-footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--muted) }}
-</style></head><body><main>
+input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--pg-line); border-radius:4px }}
+footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--pg-muted) }}
+</style></head><body>
+<header class="epp-header"><div class="wrap">
+  <a href="https://everypuzzleproject.org/">Every Puzzle Project</a>
+  <span class="epp-page">The Boston Globe</span>
+  <nav><a href="https://github.com/EveryPuzzleProject/bostonglobe">Repo</a></nav>
+</div></header>
+<main>
 <h1>Crossword Puzzles in the Boston Globe</h1>
 <p class="lede">The Boston Globe ran its first crossword on February 25, 1917, barely three years after the first crossword ever
 and seven years before the craze swept the country. Since then it has run Sunday puzzles, Saturday puzzles, a Wednesday puzzle,
