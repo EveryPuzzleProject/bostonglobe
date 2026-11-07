@@ -28,7 +28,7 @@ the public request). Constructors with their own files: we'd love to hear
 from you.
 
 What's known about each series, with sources, is in the
-[catalog entry](https://github.com/EveryPuzzleProject/catalog/blob/main/publications/boston-globe.md).
+[census entry](https://github.com/EveryPuzzleProject/census/blob/main/publications/boston-globe.md).
 
 ## What's here
 
@@ -39,7 +39,7 @@ What's known about each series, with sources, is in the
 | `series.tsv` | The series and runs we know about, with dates and what's left to research. |
 | `notes/` | Research data, e.g. `double-issues.tsv`. |
 | `data/puzzmo-index.json` | The Globe's Puzzmo puzzle list since 2024 (titles, dates, constructors). |
-| `tools/render.py` | Builds the status page from the TSVs and the timeline of sightings in the catalog entry; runs on every push and daily. |
+| `tools/render.py` | Builds the status page from the TSVs and the timeline of sightings in the census entry; runs on every push and daily. |
 
 States, in order: `missing` (nothing found), `need-image` (known in print,
 needs a scan), `ready` (we have a digital copy to submit), `in-mr` (submitted
