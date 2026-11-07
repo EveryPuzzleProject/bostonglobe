@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Render site/index.html from status.tsv, series.tsv and notes/double-issues.tsv,
-plus the timeline of sightings in the catalog's Boston Globe entry.
+plus the timeline of sightings in the census's Boston Globe entry.
 
 Runs in CI on every push and daily (see .github/workflows/pages.yml); needs
-PyYAML for the catalog entry. status.tsv itself is rebuilt locally by
+PyYAML for the census entry. status.tsv itself is rebuilt locally by
 build_status.py.
 """
 import csv
@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BLITZ = "https://github.com/EveryPuzzleProject/blitz/issues/new?template=request-blitz.yml"
-CATALOG = "https://github.com/EveryPuzzleProject/catalog/blob/main/publications/boston-globe.md"
+CENSUS = "https://github.com/EveryPuzzleProject/census/blob/main/publications/boston-globe.md"
 REPO = "https://github.com/EveryPuzzleProject/bostonglobe"
 STATES = [  # (state, label, meaning)
     ("in-gxd", "In the archive", "in the xd crossword corpus"),
@@ -29,17 +29,18 @@ STATES = [  # (state, label, meaning)
 ]
 
 
-CATALOG_RAW = "https://raw.githubusercontent.com/EveryPuzzleProject/catalog/main/publications/boston-globe.md"
+CENSUS_RAW = "https://raw.githubusercontent.com/EveryPuzzleProject/census/main/publications/boston-globe.md"
 ERAS = [("1917", "1929", "1917–1929: the early series"), ("1930", "1979", "1930–1979"),
         ("1980", "2009", "1980–2009"), ("2010", "9999", "2010 to now")]
 
 
-def catalog_entry() -> dict:
-    """The catalog's Boston Globe front matter: from a sibling catalog checkout if
+def census_entry() -> dict:
+    """The census's Boston Globe front matter: from a sibling census checkout if
     there is one (local runs), otherwise from GitHub (CI)."""
     import yaml
-    local = ROOT.parent / "catalog" / "publications" / "boston-globe.md"
-    text = local.read_text(encoding="utf-8") if local.exists() else urllib.request.urlopen(CATALOG_RAW, timeout=60).read().decode("utf-8")
+    local = next((p for p in (ROOT.parent / "census" / "publications" / "boston-globe.md",
+                             ROOT.parent / "catalog" / "publications" / "boston-globe.md") if p.exists()), None)
+    text = local.read_text(encoding="utf-8") if local else urllib.request.urlopen(CENSUS_RAW, timeout=60).read().decode("utf-8")
     m = re.match(r"---\n(.*?)\n---\n", text.replace("\r\n", "\n"), re.S)
     return yaml.safe_load(m.group(1)) if m else {}
 
@@ -101,7 +102,7 @@ def main() -> None:
             f"<tr><td>{e(s['name'])}</td><td>{e(s['days'])}</td><td>{e(s['from'])}</td><td>{e(s['to'])}</td><td>{e(s['status'])}</td></tr>"
             for s in series)
 
-    entry = catalog_entry()
+    entry = census_entry()
 
     def timeline() -> str:
         cw = entry.get("crosswords") or {}
@@ -210,14 +211,14 @@ some copies of these puzzles were syndicated and dated weeks later, so please gi
 <h3>Earlier series</h3>
 <p>Before the Globe Magazine there were several series: a Sunday puzzle from 1917, a Saturday puzzle from 1923,
 a Wednesday puzzle in 1924, and a daily from October 1924 that was still running in 1970.
-We're still mapping when each started and stopped. See the <a href="{CATALOG}">catalog entry</a> for what's known and the open questions.</p>
+We're still mapping when each started and stopped. See the <a href="{CENSUS}">census entry</a> for what's known and the open questions.</p>
 <div class="scroll"><table><thead><tr><th>Series</th><th>Days</th><th>From</th><th>To</th><th>Status</th></tr></thead><tbody>
 {series_rows()}
 </tbody></table></div>
 
 <h2>Timeline: what's been seen</h2>
-<p>The evidence behind the series above: every dated sighting recorded in the <a href="{CATALOG}">catalog entry</a>,
-what was in the paper that day, and who saw it where. New sightings go in the catalog and show up here.</p>
+<p>The evidence behind the series above: every dated sighting recorded in the <a href="{CENSUS}">census entry</a>,
+what was in the paper that day, and who saw it where. New sightings go in the census and show up here.</p>
 {timeline()}
 
 <h2>Progress, Sundays since 1980</h2>
